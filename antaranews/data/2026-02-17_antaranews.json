@@ -1,14 +1,28 @@
 [
   {
+    "title": "Indonesian government declares Feb 19 as start of Ramadan",
+    "url": "https://en.antaranews.com/news/404854/indonesian-government-declares-feb-19-as-start-of-ramadan",
+    "published_date": "2026-02-17",
+    "summary": "The Indonesian Ministry of Religious Affairs has declared February 19, 2026, as the first day of Ramadan 1447 Hijri, ...",
+    "content": "2020 Translator: Asep Firmansyah, Raka AdjiEditor: Azis KurmalaCopyright  ANTARA 2026",
+    "negative_score": 0,
+    "is_negative": false,
+    "matched_keywords": [],
+    "processed_at": "2026-02-17T22:43:45.112046"
+  },
+  {
     "title": "Village cooperatives not to kill off local small businesses: Ministry",
     "url": "https://en.antaranews.com/news/404850/village-cooperatives-not-to-kill-off-local-small-businesses-ministry",
     "published_date": "2026-02-17",
     "summary": "The Ministry of Cooperatives underscored that the Red and White Village Cooperatives will not kill off small ...",
     "content": "2020 Translator: Heru Suyitno, Raka AdjiEditor: Azis KurmalaCopyright  ANTARA 2026",
-    "negative_score": 0,
-    "is_negative": false,
-    "matched_keywords": [],
-    "processed_at": "2026-02-17T15:43:57.591686"
+    "negative_score": 2,
+    "is_negative": true,
+    "matched_keywords": [
+      "kill",
+      "kill"
+    ],
+    "processed_at": "2026-02-17T22:43:45.112081"
   },
   {
     "title": "FGM elimination part of human development investment: ministry",
@@ -19,7 +33,7 @@
     "negative_score": 0,
     "is_negative": false,
     "matched_keywords": [],
-    "processed_at": "2026-02-17T15:43:57.591725"
+    "processed_at": "2026-02-17T22:43:45.112106"
   },
   {
     "title": "Indonesia, Malaysia expand research cooperation on food security, AI",
@@ -30,7 +44,7 @@
     "negative_score": 0,
     "is_negative": false,
     "matched_keywords": [],
-    "processed_at": "2026-02-17T15:43:57.591750"
+    "processed_at": "2026-02-17T22:43:45.112130"
   },
   {
     "title": "Minister urges anticipating extreme weather during Eid travel season",
@@ -41,7 +55,7 @@
     "negative_score": 0,
     "is_negative": false,
     "matched_keywords": [],
-    "processed_at": "2026-02-17T15:43:57.591772"
+    "processed_at": "2026-02-17T22:43:45.112152"
   },
   {
     "title": "BGN narrows Bali free meals scope during Chinese New Year break",
@@ -52,7 +66,7 @@
     "negative_score": 0,
     "is_negative": false,
     "matched_keywords": [],
-    "processed_at": "2026-02-17T15:43:57.591794"
+    "processed_at": "2026-02-17T22:43:45.112175"
   },
   {
     "title": "Indonesia prioritizes elderly pilgrims protection in 2026 Hajj",
@@ -63,7 +77,7 @@
     "negative_score": 0,
     "is_negative": false,
     "matched_keywords": [],
-    "processed_at": "2026-02-17T15:43:57.591816"
+    "processed_at": "2026-02-17T22:43:45.112197"
   },
   {
     "title": "RI explores digital payment technology cooperation with Vietnam",
@@ -74,7 +88,7 @@
     "negative_score": 0,
     "is_negative": false,
     "matched_keywords": [],
-    "processed_at": "2026-02-17T15:43:57.591838"
+    "processed_at": "2026-02-17T22:43:45.112219"
   },
   {
     "title": "Indonesia seeks seamless digital link with Saudi Arabia for pilgrims",
@@ -85,7 +99,7 @@
     "negative_score": 0,
     "is_negative": false,
     "matched_keywords": [],
-    "processed_at": "2026-02-17T15:43:57.591860"
+    "processed_at": "2026-02-17T22:43:45.112242"
   },
   {
     "title": "Indonesia advances Nusa Penida as integrated green island destination",
@@ -96,7 +110,7 @@
     "negative_score": 0,
     "is_negative": false,
     "matched_keywords": [],
-    "processed_at": "2026-02-17T15:43:57.591882"
+    "processed_at": "2026-02-17T22:43:45.112265"
   },
   {
     "title": "Prabowo to represent developing nations at BoP first meeting: DPR",
@@ -107,7 +121,7 @@
     "negative_score": 0,
     "is_negative": false,
     "matched_keywords": [],
-    "processed_at": "2026-02-17T15:43:57.591904"
+    "processed_at": "2026-02-17T22:43:45.112287"
   },
   {
     "title": "Indonesia targets stronger seafood exports with 2026 strategy",
@@ -118,7 +132,7 @@
     "negative_score": 0,
     "is_negative": false,
     "matched_keywords": [],
-    "processed_at": "2026-02-17T15:43:57.591927"
+    "processed_at": "2026-02-17T22:43:45.112310"
   },
   {
     "title": "Nirmala Nusantara Rice Cake Festival celebrates Solos 281st anniversary",
@@ -129,7 +143,7 @@
     "negative_score": 0,
     "is_negative": false,
     "matched_keywords": [],
-    "processed_at": "2026-02-17T15:43:57.591946"
+    "processed_at": "2026-02-17T22:43:45.112329"
   },
   {
     "title": "Police investigate theft of Thai tourists suitcases at Mount Bromo",
@@ -142,7 +156,7 @@
     "matched_keywords": [
       "theft"
     ],
-    "processed_at": "2026-02-17T15:43:57.591970"
+    "processed_at": "2026-02-17T22:43:45.112353"
   },
   {
     "title": "Chinese New Year: Indonesia grants sentence cuts to 44 inmates",
@@ -153,7 +167,7 @@
     "negative_score": 0,
     "is_negative": false,
     "matched_keywords": [],
-    "processed_at": "2026-02-17T15:43:57.591993"
+    "processed_at": "2026-02-17T22:43:45.112376"
   },
   {
     "title": "Gibran sends Chinese New Year wishes, lauds Confucian contributions",
@@ -164,7 +178,7 @@
     "negative_score": 0,
     "is_negative": false,
     "matched_keywords": [],
-    "processed_at": "2026-02-17T15:43:57.592015"
+    "processed_at": "2026-02-17T22:43:45.112399"
   },
   {
     "title": "Meulang tradition marks start of Holy Ramadan in Meulaboh",
@@ -175,7 +189,7 @@
     "negative_score": 0,
     "is_negative": false,
     "matched_keywords": [],
-    "processed_at": "2026-02-17T15:43:57.592049"
+    "processed_at": "2026-02-17T22:43:45.112431"
   },
   {
     "title": "Minister calls free meals program investment in human capital",
@@ -186,7 +200,7 @@
     "negative_score": 0,
     "is_negative": false,
     "matched_keywords": [],
-    "processed_at": "2026-02-17T15:43:57.592071"
+    "processed_at": "2026-02-17T22:43:45.112454"
   },
   {
     "title": "Sultan bin Ahmed Visits Shanghai Film Studios, Film Park and Stadium",
@@ -197,6 +211,6 @@
     "negative_score": 0,
     "is_negative": false,
     "matched_keywords": [],
-    "processed_at": "2026-02-17T15:43:57.592092"
+    "processed_at": "2026-02-17T22:43:45.112475"
   }
 ]
