@@ -1,0 +1,110 @@
+2026-02-18T00:30:22.122093 | INFO | Starting Jakarta Post Business pipeline (2 days: 2026-02-17 to 2026-02-18)
+2026-02-18T00:33:34.354920 | INFO | Found 1845 unique articles from all categories
+2026-02-18T00:55:11.507268 | INFO | Starting Jakarta Post Business pipeline (limited: 30/category)
+2026-02-18T00:55:12.230613 | INFO | Found 51 articles total
+2026-02-18T00:57:11.028457 | company | https://www.thejakartapost.com/business/2026/02/15/businesses-seek-ai-regulatory-clarity-as-caution-hampers-investment.html | Article content too short
+2026-02-18T00:57:11.028878 | company | http://www.thejakartapost.com/business/economy | Article content too short
+2026-02-18T00:57:11.029100 | company | http://www.thejakartapost.com/business/tech | Article content too short
+2026-02-18T00:57:11.029276 | company | http://www.thejakartapost.com/business/companies | Article content too short
+2026-02-18T00:57:11.029410 | company | http://www.thejakartapost.com/business/regulations | Article content too short
+2026-02-18T00:57:11.029611 | company | http://www.thejakartapost.com/business/markets | Article content too short
+2026-02-18T00:57:11.029704 | company | https://www.thejakartapost.com/business/2026/02/15/vietnam-licenses-musks-satellite-internet-firm-starlink.html | Article content too short
+2026-02-18T00:57:11.029787 | company | https://www.thejakartapost.com/business/companies | Article content too short
+2026-02-18T00:57:11.030004 | company | https://www.thejakartapost.com/business/2026/02/13/tiffany-co-stores-sealed-over-alleged-illegal-imports.html | Article content too short
+2026-02-18T00:57:11.033455 | company | https://www.thejakartapost.com/business/2026/02/12/danantaras-poultry-push-raises-concerns-over-market-distortion.html | Article content too short
+2026-02-18T00:57:11.033563 | company | https://www.thejakartapost.com/business/2026/02/12/pertamina-to-spin-off-airlines-hospitals-non-oil-units-this-year.html | Article content too short
+2026-02-18T00:57:11.033690 | company | https://www.thejakartapost.com/business/2026/02/11/indosat-ooredoo-hutchison-shows-healthy-fundamentals-in-2025-with-12-2-net-profit-growth.html | Article content too short
+2026-02-18T00:57:11.033784 | company | https://www.thejakartapost.com/business/2026/02/11/pln-epi-breaks-ground-on-rp1-trillion-gas-pipeline.html | Article content too short
+2026-02-18T00:57:11.033865 | company | https://www.thejakartapost.com/business/2026/02/11/swa-roboknights-to-represent-indonesia-at-vex-robotics-world-championship-in-the-us.html | Article content too short
+2026-02-18T00:57:11.033962 | company | https://www.thejakartapost.com/business/2026/02/10/finance-ministrys-smi-secures-9-3m-grants-to-expand-green-finance.html | Article content too short
+2026-02-18T00:57:11.034346 | company | https://www.thejakartapost.com/business/2026/02/09/danantara-breaks-ground-on-7b-downstream-industry-projects.html | Article content too short
+2026-02-18T00:57:11.034643 | market | http://www.thejakartapost.com/index.php/business/economy | Article content too short
+2026-02-18T00:57:11.034750 | market | http://www.thejakartapost.com/index.php/business/tech | Article content too short
+2026-02-18T00:57:11.034843 | market | http://www.thejakartapost.com/index.php/business/companies | Article content too short
+2026-02-18T00:57:11.034924 | market | http://www.thejakartapost.com/index.php/business/regulations | Article content too short
+2026-02-18T00:57:11.035014 | market | http://www.thejakartapost.com/index.php/business/markets | Article content too short
+2026-02-18T00:57:11.035099 | market | https://www.thejakartapost.com/business/2026/02/17/dollar-holds-gains-in-thin-trading-as-markets-await-fed-minutes-us-gdp.html | Article content too short
+2026-02-18T00:57:11.035179 | market | https://www.thejakartapost.com/business/markets | Article content too short
+2026-02-18T00:57:11.035277 | market | https://www.thejakartapost.com/business/2026/02/16/asian-markets-sluggish-as-lunar-new-year-holiday-looms.html | Article content too short
+2026-02-18T00:57:11.035373 | market | https://www.thejakartapost.com/business/2026/02/13/asian-shares-step-back-from-record-as-tech-jitters-return-bonds-rally.html | Article content too short
+2026-02-18T00:57:11.035484 | market | https://www.thejakartapost.com/business/2026/02/12/gold-edges-lower-on-firmer-dollar-after-strong-us-jobs-data.html | Article content too short
+2026-02-18T00:57:11.035567 | market | https://www.thejakartapost.com/business/2026/02/12/danantaras-idx-ownership-plan-gets-guarded-welcome.html | Article content too short
+2026-02-18T00:57:11.035642 | market | https://www.thejakartapost.com/business/2026/02/11/buoyant-stocks-pause-for-breath-on-signs-of-softening-us-consumption.html | Article content too short
+2026-02-18T00:57:11.035714 | market | https://www.thejakartapost.com/business/2026/02/10/ftse-russell-postpones-indonesia-index-review.html | Article content too short
+2026-02-18T00:57:11.035786 | market | https://www.thejakartapost.com/business/2026/02/09/asian-markets-rally-as-japan-shares-surge-to-record-peak.html | Article content too short
+2026-02-18T00:57:11.035857 | market | https://www.thejakartapost.com/business/2026/02/06/indonesian-markets-slide-again-after-moodys-cuts-outlook.html | Article content too short
+2026-02-18T00:57:11.035930 | regulation | https://www.thejakartapost.com/business/2026/02/16/idle-oil-and-gas-projects-risk-losing-licenses-bahlil-warns.html | Article content too short
+2026-02-18T00:57:11.036001 | regulation | https://www.thejakartapost.com/business/regulations | Article content too short
+2026-02-18T00:57:11.036091 | regulation | https://www.thejakartapost.com/business/2026/02/16/site-selection-for-first-nuclear-plant-expected-by-mid-2026-says-renewables-official.html | Article content too short
+2026-02-18T00:57:11.036178 | regulation | https://www.thejakartapost.com/business/2026/02/14/eu-proposes-extending-russian-oil-sanctions-to-maritime-services.html | Article content too short
+2026-02-18T00:57:11.036258 | regulation | https://www.thejakartapost.com/business/2026/02/12/prabowo-ordered-purge-of-idx-ojk-leadership-brother-says.html | Article content too short
+2026-02-18T00:57:11.036325 | regulation | https://www.thejakartapost.com/business/2026/02/10/eu-proposes-sanctions-on-indonesian-ports-for-handling-russian-oil.html | Article content too short
+2026-02-18T00:57:11.036387 | regulation | https://www.thejakartapost.com/business/2026/02/09/authorities-propose-3-measures-to-meet-mscis-transparency-demands.html | Article content too short
+2026-02-18T00:57:11.036818 | regulation | https://www.thejakartapost.com/business/2026/02/08/crackdown-on-mining-permits-faces-legal-scrutiny.html | Article content too short
+2026-02-18T00:57:11.037057 | regulation | https://www.thejakartapost.com/business/2026/02/04/pushing-rupiah-to-15000-per-dollar-not-that-difficult-says-purbaya.html | Article content too short
+2026-02-18T00:57:11.037314 | regulation | https://www.thejakartapost.com/business/2026/02/04/weak-commitment-policy-uncertainty-derail-ri-renewable-targets.html | Article content too short
+2026-02-18T00:57:11.037593 | economy | https://www.thejakartapost.com/business/2026/02/17/govt-urged-not-to-compromise-too-much-for-us-trade-deal.html | Article content too short
+2026-02-18T00:57:11.037868 | economy | https://www.thejakartapost.com/business/economy | Article content too short
+2026-02-18T00:57:11.038150 | economy | https://www.thejakartapost.com/business/2026/02/17/unlocking-regional-potential-to-boost-economic-growth.html | Article content too short
+2026-02-18T00:57:11.038458 | economy | https://www.thejakartapost.com/business/2026/02/16/japans-economy-limps-back-to-scant-growth-in-q4-raises-test-for-takaichi.html | Article content too short
+2026-02-18T00:57:11.038740 | economy | https://www.thejakartapost.com/business/2026/02/14/lunar-new-year-drives-corporate-decor-boom-but-retail-demand-falters.html | Article content too short
+2026-02-18T00:57:11.039017 | economy | https://www.thejakartapost.com/business/2026/02/13/be-realistic-says-prabowo-while-defending-key-programs.html | Article content too short
+2026-02-18T00:57:11.039293 | economy | https://www.thejakartapost.com/business/2026/02/13/high-rise-housing-still-a-hard-sell-in-jakarta-says-jll.html | Article content too short
+2026-02-18T00:57:11.039591 | economy | https://www.thejakartapost.com/business/2026/02/13/eu-leaders-vow-to-accelerate-single-market-in-struggle-to-compete-with-us-china.html | Article content too short
+2026-02-18T00:57:11.039853 | economy | https://www.thejakartapost.com/business/2026/02/11/indonesia-ready-to-bridge-trade-investment-in-islamic-world.html | Article content too short
+2026-02-18T00:57:11.040100 | economy | https://www.thejakartapost.com/business/2026/02/11/prabowo-businesses-shake-hands-to-create-jobs.html | Article content too short
+2026-02-18T00:57:11.040340 | INFO | No new articles were successfully processed
+2026-02-18T04:04:05.497253 | INFO | Starting Jakarta Post Business pipeline (3 days: 2026-02-16 to 2026-02-18)
+2026-02-18T04:07:13.488273 | INFO | Found 1844 unique articles from all categories
+2026-02-18T04:10:49.252504 | INFO | Starting Jakarta Post Business pipeline (limited: 10/category)
+2026-02-18T04:10:49.957355 | INFO | Found 19 articles total
+2026-02-18T04:11:28.556308 | company | https://www.thejakartapost.com/business/2026/02/15/businesses-seek-ai-regulatory-clarity-as-caution-hampers-investment.html | Article content too short
+2026-02-18T04:11:28.556546 | company | http://www.thejakartapost.com/business/economy | Article content too short
+2026-02-18T04:11:28.556673 | company | http://www.thejakartapost.com/business/tech | Article content too short
+2026-02-18T04:11:28.556780 | company | http://www.thejakartapost.com/business/companies | Article content too short
+2026-02-18T04:11:28.556899 | company | http://www.thejakartapost.com/business/regulations | Article content too short
+2026-02-18T04:11:28.557004 | company | http://www.thejakartapost.com/business/markets | Article content too short
+2026-02-18T04:11:28.557110 | company | https://www.thejakartapost.com/business/2026/02/15/vietnam-licenses-musks-satellite-internet-firm-starlink.html | Article content too short
+2026-02-18T04:11:28.557206 | company | https://www.thejakartapost.com/business/companies | Article content too short
+2026-02-18T04:11:28.557300 | market | http://www.thejakartapost.com/index.php/business/economy | Article content too short
+2026-02-18T04:11:28.557394 | market | http://www.thejakartapost.com/index.php/business/tech | Article content too short
+2026-02-18T04:11:28.557485 | market | http://www.thejakartapost.com/index.php/business/companies | Article content too short
+2026-02-18T04:11:28.557582 | market | http://www.thejakartapost.com/index.php/business/regulations | Article content too short
+2026-02-18T04:11:28.557679 | market | http://www.thejakartapost.com/index.php/business/markets | Article content too short
+2026-02-18T04:11:28.557761 | market | https://www.thejakartapost.com/business/2026/02/17/dollar-holds-gains-in-thin-trading-as-markets-await-fed-minutes-us-gdp.html | Article content too short
+2026-02-18T04:11:28.557857 | market | https://www.thejakartapost.com/business/markets | Article content too short
+2026-02-18T04:11:28.557936 | regulation | https://www.thejakartapost.com/business/2026/02/16/idle-oil-and-gas-projects-risk-losing-licenses-bahlil-warns.html | Article content too short
+2026-02-18T04:11:28.557999 | regulation | https://www.thejakartapost.com/business/regulations | Article content too short
+2026-02-18T04:11:28.558056 | economy | https://www.thejakartapost.com/business/2026/02/18/trump-says-japan-to-invest-in-energy-industrial-projects-in-ohio-texas-and-georgia.html | Article content too short
+2026-02-18T04:11:28.558134 | economy | https://www.thejakartapost.com/business/economy | Article content too short
+2026-02-18T04:11:28.558282 | INFO | No new articles were successfully processed
+2026-02-18T04:15:09.393613 | INFO | Starting Jakarta Post Business pipeline (limited: 2/category)
+2026-02-18T04:15:09.961935 | INFO | Found 3 articles total
+2026-02-18T04:15:18.234280 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:15:18.293314 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:15:18.406731 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:15:18.408029 | INFO | Saved 3 articles to data/jakartapost_business.json
+2026-02-18T04:16:36.241205 | INFO | Starting Jakarta Post Business pipeline (limited: 10/category)
+2026-02-18T04:16:36.728715 | INFO | Found 19 articles total
+2026-02-18T04:17:22.902623 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:17:22.972614 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:17:23.027936 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:17:23.048807 | INFO | Processed: ... (Negative: False)
+2026-02-18T04:17:23.103215 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:17:23.159642 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:17:23.177051 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:17:23.193076 | INFO | Processed: ... (Negative: False)
+2026-02-18T04:17:23.262570 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:17:23.314955 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:17:23.331442 | INFO | Processed: ... (Negative: False)
+2026-02-18T04:17:23.385081 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:17:23.447145 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:17:23.468385 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:17:23.523848 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:17:23.541606 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:17:23.590424 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:17:23.615738 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:17:23.675463 | INFO | Processed: ... (Negative: True)
+2026-02-18T04:17:23.680502 | INFO | Saved 19 articles to data/jakartapost_business.json
+2026-02-18T04:24:00.885175 | INFO | Starting Jakarta Post Business pipeline (3 days: 2026-02-16 to 2026-02-18)
+2026-02-18T04:26:46.071034 | INFO | Found 1845 unique articles from all categories

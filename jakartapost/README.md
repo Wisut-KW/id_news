@@ -1,5 +1,10 @@
 # Jakarta Post Business News Scraper
 
+**Two Pipeline Versions Available:**
+
+1. **Main Pipeline** (`pipeline.py`): Date-based scraping with pagination
+2. **Limited Pipeline** (`pipeline_limited.py`): Fixed 50 articles per category (200 total)
+
 Python-based news scraping agent for Jakarta Post business categories with negative event detection.
 
 ## Features
@@ -122,7 +127,7 @@ SENTIMENT_THRESHOLD = -0.2   # Sentiment threshold
 ## Project Structure
 
 ```
-jakartapost_business/
+jakartapost/
 ├── agents/
 │   ├── __init__.py
 │   ├── config.py              # Configuration settings
@@ -136,7 +141,8 @@ jakartapost_business/
 │   └── jakartapost_business.json
 ├── logs/
 │   └── YYYY-MM-DD_errors.log
-├── pipeline.py
+├── pipeline.py                # Main pipeline (date-based)
+├── pipeline_limited.py        # Limited version (50 per category)
 ├── requirements.txt
 └── README.md
 ```
@@ -162,7 +168,71 @@ jakartapost_business/
 - More severe words (bankrupt, recession) = higher weight
 - Combined with sentiment analysis
 
-## Example Output
+## Limited Version (50 Articles per Category)
+
+For a simpler approach that scrapes exactly 50 articles per category (200 total max):
+
+### Run Limited Pipeline
+
+**Default (50 per category):**
+```bash
+python pipeline_limited.py
+```
+
+**Custom limit (e.g., 30 per category):**
+```bash
+python pipeline_limited.py --limit 30
+```
+
+**Custom limit with more pages:**
+```bash
+python pipeline_limited.py --limit 50 --max-pages 15
+```
+
+### Differences from Main Pipeline
+
+| Feature | Main Pipeline (`pipeline.py`) | Limited Pipeline (`pipeline_limited.py`) |
+|---------|------------------------------|------------------------------------------|
+| Logic | Paginates until date threshold | Fixed count per category |
+| Date filtering | Yes (configurable days) | No (most recent articles) |
+| Articles per category | Variable | Fixed (default: 50) |
+| Use case | Time-based scraping | Fixed sample size |
+
+### Example Output (Limited)
+
+```
+======================================================================
+JAKARTA POST BUSINESS NEWS PIPELINE - LIMITED VERSION
+======================================================================
+Limit: 50 articles per category
+Categories: company, market, regulation, economy
+Expected max total: 200 articles
+======================================================================
+
+[1/5] Fetching up to 50 articles per category...
+
+  Scraping category: COMPANY
+    Page 1... 12/50 collected
+    Page 2... 24/50 collected
+    Page 3... 36/50 collected
+    Page 4... 48/50 collected
+    Page 5... 50/50 collected
+    → Reached limit of 50 articles
+
+  Breakdown by category:
+    - company: 50 articles
+    - economy: 50 articles
+    - market: 50 articles
+    - regulation: 50 articles
+
+  Total articles collected: 200
+
+[2/5] Scraping full article content...
+  Scraped: 195 successful, 5 failed
+...
+```
+
+## Example Output (Main Pipeline)
 
 ```
 ======================================================================
