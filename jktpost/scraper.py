@@ -35,11 +35,13 @@ class JakartaPostScraper:
         self,
         days_back: int = 2,
         output_file: str = OUTPUT_FILE,
-        base_url: str = BASE_URL
+        base_url: str = BASE_URL,
+        fetch_content: bool = False
     ):
         self.days_back = days_back
         self.output_file = output_file
         self.base_url = base_url
+        self.fetch_content = fetch_content
         self.cutoff_date = datetime.now() - timedelta(days=days_back)
         self.existing_urls = self._load_existing_urls()
         self.session = requests.Session()
@@ -118,6 +120,93 @@ class JakartaPostScraper:
         except requests.RequestException as e:
             logger.error(f"Error fetching page {page_num}: {e}")
             return None
+
+    def _fetch_article_content(self, url: str) -> dict:
+        """Fetch and extract article content from individual article page.
+        
+        Args:
+            url: Article URL to fetch
+            
+        Returns:
+            dict with content, author, and other article-specific fields
+        """
+        content_data = {
+            'content': '',
+            'author': '',
+            'category': '',
+            'tags': [],
+            'fetch_error': None
+        }
+        
+        try:
+            logger.debug(f"Fetching article content: {url}")
+            response = self.session.get(url, timeout=30)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
+            
+            # Extract author - Jakarta Post uses meta tag or tjp-meta__label
+            author_elem = soup.find('meta', attrs={'name': 'author'})
+            if author_elem:
+                content_data['author'] = str(author_elem.get('content', '')).strip()
+            else:
+                # Try tjp-meta__label
+                author_elem = soup.find('span', class_='tjp-meta__label')
+                if author_elem:
+                    content_data['author'] = author_elem.get_text(strip=True)
+            
+            # Extract category from breadcrumb
+            category_elem = soup.find('li', class_='tjp-breadcrumb__list-item active')
+            if category_elem:
+                content_data['category'] = category_elem.get_text(strip=True)
+            
+            # Extract main article content
+            # Jakarta Post uses div.tjp-single__content for article body
+            content_selectors = [
+                'div.tjp-single__content',  # Main content container
+            ]
+            
+            for selector in content_selectors:
+                content_elem = soup.select_one(selector)
+                if content_elem:
+                    # Extract all paragraphs including opening text
+                    paragraphs = content_elem.find_all('p')
+                    if paragraphs:
+                        content_text = '\n\n'.join([p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True)])
+                        if len(content_text) > 50:  # Ensure we got some content
+                            content_data['content'] = content_text
+                            break
+            
+            # Fallback: try to find all paragraphs in the article area
+            if not content_data['content']:
+                article_area = soup.find('div', class_='tjp-single') or soup.find('article')
+                if article_area:
+                    paragraphs = article_area.find_all('p')
+                    content_text = '\n\n'.join([p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True)])
+                    if len(content_text) > 50:
+                        content_data['content'] = content_text
+            
+            # Extract tags from meta keywords
+            keywords_elem = soup.find('meta', attrs={'name': 'keywords'})
+            if keywords_elem:
+                keywords = keywords_elem.get('content', '')
+                if keywords:
+                    content_data['tags'] = [tag.strip() for tag in str(keywords).split(',') if tag.strip()]
+            
+            # Also try to find tag links
+            if not content_data['tags']:
+                tag_elems = soup.find_all('a', class_='tag') or soup.find_all('a', href=re.compile(r'/tag/'))
+                content_data['tags'] = [tag.get_text(strip=True) for tag in tag_elems if tag.get_text(strip=True)]
+            
+            logger.debug(f"Successfully fetched content for {url}: {len(content_data['content'])} chars, author: {content_data['author']}")
+            
+        except requests.RequestException as e:
+            logger.error(f"Error fetching article {url}: {e}")
+            content_data['fetch_error'] = str(e)
+        except Exception as e:
+            logger.error(f"Error parsing article {url}: {e}")
+            content_data['fetch_error'] = str(e)
+        
+        return content_data
 
     def _extract_article_data(self, article_elem, skip_existing: bool = True) -> Optional[dict]:
         """Extract article data from element.
@@ -277,6 +366,19 @@ class JakartaPostScraper:
                 break
         
         if new_articles:
+            # Fetch content for new articles if enabled
+            if self.fetch_content:
+                logger.info(f"Fetching content for {len(new_articles)} new articles...")
+                for i, article in enumerate(new_articles, 1):
+                    logger.info(f"Fetching content [{i}/{len(new_articles)}]: {article['title'][:60]}...")
+                    content_data = self._fetch_article_content(article['url'])
+                    article['content'] = content_data['content']
+                    article['author'] = content_data['author']
+                    article['category'] = content_data['category']
+                    article['tags'] = content_data['tags']
+                    if content_data['fetch_error']:
+                        article['content_error'] = content_data['fetch_error']
+            
             all_articles.extend(new_articles)
             self._save_data(all_articles)
             logger.info(f"Added {len(new_articles)} new articles")
@@ -309,12 +411,18 @@ def main():
         default=BASE_URL,
         help=f'Base URL to scrape (default: {BASE_URL})'
     )
+    parser.add_argument(
+        '--fetch-content', '-c',
+        action='store_true',
+        help='Fetch full article content from each article page (slower but more complete)'
+    )
     args = parser.parse_args()
     
     scraper = JakartaPostScraper(
         days_back=args.days,
         output_file=args.output,
-        base_url=args.url
+        base_url=args.url,
+        fetch_content=args.fetch_content
     )
     
     try:
