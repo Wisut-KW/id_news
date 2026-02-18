@@ -1,172 +1,362 @@
-# AGENTS.md — Additional Source: IDX Channel
+# AGENTS.md — Jakarta Post Business Scraper
 
-### Source Overview
-
-IDX Channel is a major Indonesian business news portal focused on:
-
-* Economic news
-* Market updates
-* Business & finance developments
-* Corporate announcements
-* Sector-specific trends
-
-Website: [https://www.idxchannel.com/](https://www.idxchannel.com/) ([https://www.idxchannel.com/][1])
+(Python Tech Stack Version)
 
 ---
 
-## Agent Integration
+# 1. Objective
 
-Add the following agent to your overall pipeline to pull news from IDX Channel and classify negative events.
+Build a **Python-based news scraping agent** that:
 
----
-
-## 1 — Source Endpoint(s)
-
-Since no official RSS feed is known for IDX Channel, use the following content pages:
-
-* **News list page**: [https://www.idxchannel.com/news](https://www.idxchannel.com/news) — general headlines and recent stories ([https://www.idxchannel.com/][2])
-* **Market news**: [https://www.idxchannel.com/market-news](https://www.idxchannel.com/market-news) — financial/market specific updates ([https://www.idxchannel.com/][3])
-
----
-
-## 2 — IDX Channel Scraper Agent
-
-### Objective
-
-Collect the latest news articles from IDX Channel **that were published today**.
-
-### Tasks
-
-#### Step 1 — Fetch List Pages
-
-Programmatically GET the news listing pages:
-
-* `/news`
-* `/market-news`
-
-Extract article links, titles, and timestamps (if available).
-
-#### Step 2 — Filter by Today
-
-Parse each article’s publication time and keep only those with dates matching your system date (e.g., `2026-02-18`). If the listing pages don’t include exact timestamps, assume articles on the first page are recent.
-
-#### Step 3 — Scrape Full Article Content
-
-For each selected URL:
-
-1. Send HTTP GET
-2. Parse with your HTML parser (`BeautifulSoup`)
-3. Extract text from `<p>` and headline tags
-
-Recommended fields to extract:
-
-* **Title**
-* **URL**
-* **Published date** (parse from listing or article page)
-* **Category** (if available)
-* **Full content body**
-* **Author** (if available)
+* Scrapes Jakarta Post business categories
+* Defaults to last **2 days**
+* Allows configurable date range
+* Paginates until date threshold reached
+* Detects negative financial events
+* Appends to existing dataset (never overwrite)
+* Deduplicates by URL
+* Logs errors without stopping execution
 
 ---
 
-## 3 — Text Cleaning
+# 2. Source Categories
 
-Same as your Antara pipeline:
+Base domain:
 
-* Trim whitespace
-* Normalize text
-* Remove scripts & ads
-* Strip HTML tags
+```
+https://www.thejakartapost.com
+```
+
+Categories:
+
+1. **Company**
+   [https://www.thejakartapost.com/business/companies/latest?utm_source=(direct)&utm_medium=channel_companies](https://www.thejakartapost.com/business/companies/latest?utm_source=%28direct%29&utm_medium=channel_companies)
+
+2. **Market**
+   [https://www.thejakartapost.com/index.php/business/markets?utm_source=(direct)&utm_medium=header](https://www.thejakartapost.com/index.php/business/markets?utm_source=%28direct%29&utm_medium=header)
+
+3. **Regulation**
+   [https://www.thejakartapost.com/index.php/business/regulations?utm_source=(direct)&utm_medium=header](https://www.thejakartapost.com/index.php/business/regulations?utm_source=%28direct%29&utm_medium=header)
+
+4. **Economy**
+   [https://www.thejakartapost.com/index.php/business/economy?utm_source=(direct)&utm_medium=header](https://www.thejakartapost.com/index.php/business/economy?utm_source=%28direct%29&utm_medium=header)
 
 ---
 
-## 4 — Negative News Detection
+# 3. Tech Stack (Python)
 
-Use **negative scoring + sentiment analysis** as with the Antara source:
+## Core Libraries
 
-* Keyword list for economic downturn, market crashes, layoffs, etc.
-* Negative sentiment score below threshold
-* Classify `is_negative` flag
-
-This helps catch negative finance/business developments (e.g., big losses, market corrections).
+```text
+Python 3.10+
+requests
+beautifulsoup4
+lxml
+python-dateutil
+vaderSentiment (or transformers for sentiment)
+json
+logging
+time
+datetime
+os
+```
 
 ---
 
-## 5 — Output Format
+## Optional (Recommended for Production)
 
-Structure identical to the Antara output:
+```text
+pandas (data validation)
+tenacity (retry logic)
+aiohttp (async version)
+schedule / APScheduler (automation)
+```
+
+---
+
+# 4. Configuration
+
+```python
+SCRAPE_DAYS = 2          # DEFAULT DATE RANGE
+APPEND_MODE = True       # Always append
+OUTPUT_FILE = "data/jakartapost_business.json"
+MAX_PAGES = 20           # Safety pagination limit
+REQUEST_DELAY = (1, 3)   # Random delay seconds
+NEGATIVE_THRESHOLD = 4
+```
+
+---
+
+# 5. Date Window Logic
+
+```python
+start_date = today - timedelta(days=SCRAPE_DAYS - 1)
+end_date = today
+```
+
+Keep only:
+
+```
+start_date <= published_date <= end_date
+```
+
+---
+
+# 6. Pagination Logic
+
+For each category:
+
+### Crawl Until:
+
+* Oldest article on page < start_date
+  OR
+* MAX_PAGES reached
+  OR
+* No articles found
+
+---
+
+## Pagination Algorithm
+
+```python
+page = 1
+
+while page <= MAX_PAGES:
+
+    fetch page
+    
+    extract article listings
+    
+    if empty:
+        break
+
+    stop_category = True
+
+    for article in page_articles:
+
+        parse published_date
+
+        if published_date >= start_date:
+            stop_category = False
+
+        if start_date <= published_date <= end_date:
+            scrape_full_article()
+
+    if stop_category:
+        break
+
+    page += 1
+```
+
+---
+
+# 7. Article Data Extraction
+
+Extract:
+
+* title
+* url (cleaned, no tracking params)
+* published_date (YYYY-MM-DD)
+* category
+* author (if available)
+* summary (first 2–3 paragraphs)
+* content (all `<p>` inside article body)
+* processed_at (ISO timestamp)
+
+Remove:
+
+* script tags
+* ads
+* style tags
+* unrelated blocks
+
+---
+
+# 8. Negative News Detection
+
+## A. Weighted Keyword Score
+
+```python
+NEGATIVE_KEYWORDS = {
+    "loss": 2,
+    "decline": 2,
+    "drop": 2,
+    "layoff": 3,
+    "bankrupt": 4,
+    "default": 4,
+    "lawsuit": 2,
+    "corruption": 3,
+    "fraud": 3,
+    "recession": 4,
+    "slowdown": 2,
+    "sanction": 3,
+    "investigation": 2,
+    "penalty": 2
+}
+```
+
+Calculate total weighted count.
+
+---
+
+## B. Sentiment Analysis
+
+Using:
+
+* `vaderSentiment`
+  OR
+* HuggingFace transformer model
+
+Return:
+
+```
+sentiment_score ∈ [-1, 1]
+```
+
+---
+
+## C. Classification Rule
+
+```python
+is_negative = (
+    negative_score >= NEGATIVE_THRESHOLD
+    or sentiment_score < -0.2
+)
+```
+
+---
+
+# 9. Append-Only Storage Logic
+
+## Step 1 — Load Existing File
+
+```python
+if os.path.exists(OUTPUT_FILE):
+    load existing JSON
+else:
+    existing_data = []
+```
+
+---
+
+## Step 2 — Deduplicate
+
+```python
+existing_urls = {item["url"] for item in existing_data}
+
+if new_article_url not in existing_urls:
+    append
+```
+
+---
+
+## Step 3 — Save
+
+Always write:
+
+```
+existing_data + new_unique_articles
+```
+
+Never delete historical records.
+
+---
+
+# 10. Output Format (STRICT JSON)
 
 ```json
 [
   {
     "title": "",
     "url": "",
-    "published_date": "",
+    "published_date": "YYYY-MM-DD",
+    "category": "",
+    "author": "",
     "summary": "",
     "content": "",
     "negative_score": 0,
     "sentiment_score": 0.0,
     "is_negative": false,
-    "source": "idxchannel",
-    "processed_at": ""
+    "source": "jakartapost_business",
+    "processed_at": "YYYY-MM-DDTHH:MM:SS"
   }
 ]
 ```
 
-Add `"source": "idxchannel"` for clarity.
+---
+
+# 11. Logging
+
+Use Python `logging` module.
+
+Log file:
+
+```
+logs/YYYY-MM-DD_errors.log
+```
+
+Log:
+
+* Timestamp
+* Category
+* URL
+* Exception type
+* Error message
+
+Continue execution if an article fails.
 
 ---
 
-## 6 — Agent Execution Flow
+# 12. Rate Limiting
 
-Integrate into your pipeline:
+* Random delay between 1–3 seconds
+* Respect robots.txt
+* Do not exceed MAX_PAGES
+* Use descriptive User-Agent header
 
-```text
-1. Fetch IDX Channel news pages
-2. Parse article list
-3. Filter by today’s date
-4. Scrape each article
-5. Clean text
-6. Detect negative events
-7. Save JSON
+---
+
+# 13. Recommended Project Structure
+
+```
+project/
+│
+├── scraper/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── scraper.py
+│   ├── parser.py
+│   ├── classifier.py
+│
+├── data/
+│   └── jakartapost_business.json
+│
+├── logs/
+│
+└── main.py
 ```
 
 ---
 
-## 7 — Logging
+# 14. Final Clean Agent Instruction
 
-Same logging strategy as before: write link + error details to `logs/YYYY-MM-DD_errors.log` for scraper failures.
+You are a Python-based business news scraping agent.
 
----
+You must:
 
-## 8 — Rate Limiting & Politeness
+1. Default SCRAPE_DAYS = 2 unless overridden.
+2. Scrape all 4 Jakarta Post business categories.
+3. Paginate until:
 
-* Wait 1–3 seconds between requests
-* Avoid brute-forcing deep pages
-* Respect site structure (robots.txt)
+   * Oldest article < start_date
+   * OR MAX_PAGES reached.
+4. Extract full article content.
+5. Clean text.
+6. Compute negative_score and sentiment_score.
+7. Classify is_negative.
+8. Append results to existing JSON dataset.
+9. Deduplicate by URL.
+10. Log errors and continue execution.
+11. Output strict JSON only.
 
----
-
-## 9 — Notes on Source
-
-* IDX Channel provides business and market updates in Indonesian and English; classification should be sensitive to economic context. ([https://www.idxchannel.com/][1])
-* Because there is no confirmed public RSS feed, direct scraping is necessary (monitor for structural changes often).
-
----
-
-## 10 — Future RSS Consideration
-
-If IDX Channel later publishes a machine-readable feed (RSS/Atom), you can replace scraping with a feed parser for more robust ingestion.
-
----
-
-If you’d like, I can also generate:
-
-* A **scraper module code (Python)** specific to `idxchannel.com`,
-* A combined runner in your Jupyter notebook that merges Antara and IDX Channel data,
-* A normalized dataset format combining multiple sources,
-* A **real-time Scheduler** for periodic scraping.
-
-[1]: https://www.idxchannel.com/?utm_source=chatgpt.com "IDX Channel: Berita Ekonomi, Bisnis, Keuangan, Investasi ..."
-[2]: https://www.idxchannel.com/news?utm_source=chatgpt.com "Berita Ekonomi Terkini Indonesia Dan Dunia Hari Ini"
-[3]: https://www.idxchannel.com/market-news?utm_source=chatgpt.com "Berita Bursa Efek Indonesia Dan Market Terkini"
+Never overwrite historical data.

@@ -1,0 +1,9 @@
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+vaderSentiment>=3.3.0
+
+# Translation dependencies (choose one)
+googletrans==4.0.0-rc1  # For Google Translate API
+# transformers>=4.30.0  # For local HuggingFace model (alternative)
+# torch>=2.0.0  # Required for transformers
