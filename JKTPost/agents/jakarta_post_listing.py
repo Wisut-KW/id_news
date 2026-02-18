@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 from typing import List, Dict, Tuple
 from urllib.parse import urljoin, urlparse, parse_qs, urlencode, urlunparse
+import re
 
 from .config import Config
 
@@ -217,9 +218,17 @@ class JakartaPostListingAgent:
         link = element.find("a", href=True)
         if link:
             href = link.get("href", "")
-            article["url"] = self._clean_url(urljoin(Config.BASE_URL, href))
+            raw_url = urljoin(Config.BASE_URL, href)
+            # Skip if not an article URL
+            if not self._is_article_url(raw_url):
+                return article
+            article["url"] = self._clean_url(raw_url)
         elif element.name == "a" and element.get("href"):
-            article["url"] = self._clean_url(urljoin(Config.BASE_URL, element.get("href")))
+            raw_url = urljoin(Config.BASE_URL, element.get("href"))
+            # Skip if not an article URL
+            if not self._is_article_url(raw_url):
+                return article
+            article["url"] = self._clean_url(raw_url)
         
         # Extract title
         title_selectors = ["h1", "h2", "h3", ".title", "[class*='title']", ".headline"]
@@ -245,17 +254,66 @@ class JakartaPostListingAgent:
         
         return article
     
-    def _clean_url(self, url: str) -> str:
-        """Remove tracking parameters from URL"""
+    def _is_article_url(self, url: str) -> bool:
+        """
+        Check if URL is an actual article (not a category page)
+        Article URLs should have date patterns like /YYYY/MM/DD/ in the path
+        """
         parsed = urlparse(url)
-        # Remove common tracking parameters
+        path = parsed.path.lower()
+        
+        # Category patterns to exclude
+        category_patterns = [
+            '/business/economy',
+            '/business/companies',
+            '/business/tech',
+            '/business/regulations',
+            '/business/markets',
+            '/index.php/business/economy',
+            '/index.php/business/companies',
+            '/index.php/business/tech',
+            '/index.php/business/regulations',
+            '/index.php/business/markets',
+        ]
+        
+        # Check if it's a category page
+        for pattern in category_patterns:
+            if path.rstrip('/').endswith(pattern.rstrip('/')):
+                return False
+        
+        # Check if URL contains date pattern (YYYY/MM/DD)
+        date_pattern = r'/\d{4}/\d{2}/\d{2}/'
+        if re.search(date_pattern, path):
+            return True
+        
+        # If no date pattern, it's likely a category or non-article page
+        return False
+    
+    def _clean_url(self, url: str) -> str:
+        """
+        Remove tracking parameters from URL and normalize
+        """
+        parsed = urlparse(url)
+        
+        # Normalize to https
+        scheme = 'https'
+        
+        # Normalize www subdomain
+        netloc = parsed.netloc.lower()
+        if netloc == 'thejakartapost.com':
+            netloc = 'www.thejakartapost.com'
+        
+        # Remove tracking parameters
         query_params = parse_qs(parsed.query)
         tracking_params = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term']
         for param in tracking_params:
             query_params.pop(param, None)
         
+        # Remove trailing slashes from path
+        path = parsed.path.rstrip('/') if parsed.path else '/'
+        
         new_query = urlencode(query_params, doseq=True)
-        return urlunparse(parsed._replace(query=new_query))
+        return urlunparse((scheme, netloc, path, parsed.params, new_query, parsed.fragment))
     
     def _parse_date(self, date_str: str) -> str:
         """Parse date string to YYYY-MM-DD format"""

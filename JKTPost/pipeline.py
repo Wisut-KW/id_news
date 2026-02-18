@@ -68,12 +68,26 @@ def run_pipeline(days: int = None, max_pages: int = None):
         # Step 1: Fetch listings from all categories with pagination
         print(f"\n[1/5] Fetching articles from all categories...")
         articles = listing_agent.fetch_all_categories(start_date, end_date, max_pages)
-        logger.log_info(f"Found {len(articles)} unique articles from all categories")
-        print(f"\n  Total unique articles found: {len(articles)}")
+        
+        # Filter out existing URLs before processing
+        existing_urls = storage_agent.get_existing_urls()
+        new_articles = []
+        skipped_existing = 0
+        
+        for article in articles:
+            normalized_url = storage_agent._normalize_url(article.get("url", ""))
+            if normalized_url not in existing_urls:
+                new_articles.append(article)
+            else:
+                skipped_existing += 1
+        
+        articles = new_articles
+        logger.log_info(f"Found {len(articles)} unique new articles from all categories (skipped {skipped_existing} existing)")
+        print(f"\n  Total unique new articles found: {len(articles)} (skipped {skipped_existing} existing)")
         
         if not articles:
-            logger.log_info("No articles found")
-            print("\nNo articles found in specified date range")
+            logger.log_info("No new articles found")
+            print("\nNo new articles found in specified date range")
             return
         
         # Step 2: Scrape full content for each article
