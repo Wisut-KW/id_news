@@ -1,0 +1,453 @@
+2026-02-18 06:38:24,321 - INFO - Starting scraper with 5 days back (cutoff: 2026-02-13)
+2026-02-18 06:38:24,322 - INFO - Fetching page 1: https://www.thejakartapost.com/business/companies/latest?utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:24,627 - INFO - Found 8 valid articles on page 1
+2026-02-18 06:38:24,627 - INFO - Fetching page 2: https://www.thejakartapost.com/business/companies/latest?page=2&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:24,774 - INFO - Found 8 valid articles on page 2
+2026-02-18 06:38:24,775 - INFO - Fetching page 3: https://www.thejakartapost.com/business/companies/latest?page=3&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:25,026 - INFO - Found 8 valid articles on page 3
+2026-02-18 06:38:25,026 - INFO - Fetching page 4: https://www.thejakartapost.com/business/companies/latest?page=4&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:25,268 - INFO - Found 8 valid articles on page 4
+2026-02-18 06:38:25,269 - INFO - Fetching page 5: https://www.thejakartapost.com/business/companies/latest?page=5&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:25,535 - INFO - Found 8 valid articles on page 5
+2026-02-18 06:38:25,535 - INFO - Fetching page 6: https://www.thejakartapost.com/business/companies/latest?page=6&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:25,950 - INFO - Found 8 valid articles on page 6
+2026-02-18 06:38:25,950 - INFO - Fetching page 7: https://www.thejakartapost.com/business/companies/latest?page=7&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:26,242 - INFO - Found 8 valid articles on page 7
+2026-02-18 06:38:26,242 - INFO - Fetching page 8: https://www.thejakartapost.com/business/companies/latest?page=8&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:26,508 - INFO - Found 8 valid articles on page 8
+2026-02-18 06:38:26,510 - INFO - Fetching page 9: https://www.thejakartapost.com/business/companies/latest?page=9&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:26,711 - INFO - Found 8 valid articles on page 9
+2026-02-18 06:38:26,712 - INFO - Fetching page 10: https://www.thejakartapost.com/business/companies/latest?page=10&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:26,974 - INFO - Found 8 valid articles on page 10
+2026-02-18 06:38:26,975 - INFO - Fetching page 11: https://www.thejakartapost.com/business/companies/latest?page=11&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:27,450 - INFO - Found 8 valid articles on page 11
+2026-02-18 06:38:27,450 - INFO - Fetching page 12: https://www.thejakartapost.com/business/companies/latest?page=12&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:28,022 - INFO - Found 8 valid articles on page 12
+2026-02-18 06:38:28,023 - INFO - Fetching page 13: https://www.thejakartapost.com/business/companies/latest?page=13&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:28,325 - INFO - Found 8 valid articles on page 13
+2026-02-18 06:38:28,326 - INFO - Fetching page 14: https://www.thejakartapost.com/business/companies/latest?page=14&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:28,764 - INFO - Found 8 valid articles on page 14
+2026-02-18 06:38:28,764 - INFO - Fetching page 15: https://www.thejakartapost.com/business/companies/latest?page=15&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:28,979 - INFO - Found 8 valid articles on page 15
+2026-02-18 06:38:28,985 - INFO - Fetching page 16: https://www.thejakartapost.com/business/companies/latest?page=16&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:29,194 - INFO - Found 8 valid articles on page 16
+2026-02-18 06:38:29,194 - INFO - Fetching page 17: https://www.thejakartapost.com/business/companies/latest?page=17&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:29,468 - INFO - Found 8 valid articles on page 17
+2026-02-18 06:38:29,468 - INFO - Fetching page 18: https://www.thejakartapost.com/business/companies/latest?page=18&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:29,675 - INFO - Found 8 valid articles on page 18
+2026-02-18 06:38:29,675 - INFO - Fetching page 19: https://www.thejakartapost.com/business/companies/latest?page=19&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:29,893 - INFO - Found 8 valid articles on page 19
+2026-02-18 06:38:29,895 - INFO - Fetching page 20: https://www.thejakartapost.com/business/companies/latest?page=20&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:30,314 - INFO - Found 8 valid articles on page 20
+2026-02-18 06:38:30,317 - INFO - Fetching page 21: https://www.thejakartapost.com/business/companies/latest?page=21&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:30,625 - INFO - Found 8 valid articles on page 21
+2026-02-18 06:38:30,625 - INFO - Fetching page 22: https://www.thejakartapost.com/business/companies/latest?page=22&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:30,872 - INFO - Found 8 valid articles on page 22
+2026-02-18 06:38:30,872 - INFO - Fetching page 23: https://www.thejakartapost.com/business/companies/latest?page=23&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:31,083 - INFO - Found 8 valid articles on page 23
+2026-02-18 06:38:31,084 - INFO - Fetching page 24: https://www.thejakartapost.com/business/companies/latest?page=24&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:31,286 - INFO - Found 8 valid articles on page 24
+2026-02-18 06:38:31,286 - INFO - Fetching page 25: https://www.thejakartapost.com/business/companies/latest?page=25&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:31,531 - INFO - Found 8 valid articles on page 25
+2026-02-18 06:38:31,531 - INFO - Fetching page 26: https://www.thejakartapost.com/business/companies/latest?page=26&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:31,801 - INFO - Found 8 valid articles on page 26
+2026-02-18 06:38:31,802 - INFO - Fetching page 27: https://www.thejakartapost.com/business/companies/latest?page=27&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:32,006 - INFO - Found 8 valid articles on page 27
+2026-02-18 06:38:32,007 - INFO - Fetching page 28: https://www.thejakartapost.com/business/companies/latest?page=28&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:32,271 - INFO - Found 8 valid articles on page 28
+2026-02-18 06:38:32,271 - INFO - Fetching page 29: https://www.thejakartapost.com/business/companies/latest?page=29&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:32,547 - INFO - Found 8 valid articles on page 29
+2026-02-18 06:38:32,548 - INFO - Fetching page 30: https://www.thejakartapost.com/business/companies/latest?page=30&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:32,844 - INFO - Found 8 valid articles on page 30
+2026-02-18 06:38:32,845 - INFO - Fetching page 31: https://www.thejakartapost.com/business/companies/latest?page=31&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:33,144 - INFO - Found 8 valid articles on page 31
+2026-02-18 06:38:33,145 - INFO - Fetching page 32: https://www.thejakartapost.com/business/companies/latest?page=32&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:33,358 - INFO - Found 8 valid articles on page 32
+2026-02-18 06:38:33,358 - INFO - Fetching page 33: https://www.thejakartapost.com/business/companies/latest?page=33&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:33,611 - INFO - Found 8 valid articles on page 33
+2026-02-18 06:38:33,611 - INFO - Fetching page 34: https://www.thejakartapost.com/business/companies/latest?page=34&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:33,860 - INFO - Found 8 valid articles on page 34
+2026-02-18 06:38:33,861 - INFO - Fetching page 35: https://www.thejakartapost.com/business/companies/latest?page=35&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:34,140 - INFO - Found 8 valid articles on page 35
+2026-02-18 06:38:34,142 - INFO - Fetching page 36: https://www.thejakartapost.com/business/companies/latest?page=36&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:34,382 - INFO - Found 8 valid articles on page 36
+2026-02-18 06:38:34,383 - INFO - Fetching page 37: https://www.thejakartapost.com/business/companies/latest?page=37&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:34,611 - INFO - Found 8 valid articles on page 37
+2026-02-18 06:38:34,611 - INFO - Fetching page 38: https://www.thejakartapost.com/business/companies/latest?page=38&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:34,950 - INFO - Found 8 valid articles on page 38
+2026-02-18 06:38:34,951 - INFO - Fetching page 39: https://www.thejakartapost.com/business/companies/latest?page=39&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:35,224 - INFO - Found 8 valid articles on page 39
+2026-02-18 06:38:35,224 - INFO - Fetching page 40: https://www.thejakartapost.com/business/companies/latest?page=40&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:35,505 - INFO - Found 8 valid articles on page 40
+2026-02-18 06:38:35,506 - INFO - Fetching page 41: https://www.thejakartapost.com/business/companies/latest?page=41&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:35,712 - INFO - Found 8 valid articles on page 41
+2026-02-18 06:38:35,713 - INFO - Fetching page 42: https://www.thejakartapost.com/business/companies/latest?page=42&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:35,949 - INFO - Found 8 valid articles on page 42
+2026-02-18 06:38:35,950 - INFO - Fetching page 43: https://www.thejakartapost.com/business/companies/latest?page=43&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:36,236 - INFO - Found 8 valid articles on page 43
+2026-02-18 06:38:36,239 - INFO - Fetching page 44: https://www.thejakartapost.com/business/companies/latest?page=44&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:36,443 - INFO - Found 8 valid articles on page 44
+2026-02-18 06:38:36,443 - INFO - Fetching page 45: https://www.thejakartapost.com/business/companies/latest?page=45&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:36,726 - INFO - Found 8 valid articles on page 45
+2026-02-18 06:38:36,726 - INFO - Fetching page 46: https://www.thejakartapost.com/business/companies/latest?page=46&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:37,004 - INFO - Found 8 valid articles on page 46
+2026-02-18 06:38:37,004 - INFO - Fetching page 47: https://www.thejakartapost.com/business/companies/latest?page=47&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:37,617 - INFO - Found 8 valid articles on page 47
+2026-02-18 06:38:37,617 - INFO - Fetching page 48: https://www.thejakartapost.com/business/companies/latest?page=48&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:37,853 - INFO - Found 8 valid articles on page 48
+2026-02-18 06:38:37,854 - INFO - Fetching page 49: https://www.thejakartapost.com/business/companies/latest?page=49&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:38,072 - INFO - Found 8 valid articles on page 49
+2026-02-18 06:38:38,073 - INFO - Fetching page 50: https://www.thejakartapost.com/business/companies/latest?page=50&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:38,276 - INFO - Found 8 valid articles on page 50
+2026-02-18 06:38:38,276 - INFO - Total new unique articles found: 4
+2026-02-18 06:38:38,277 - INFO - Saved 4 new articles to news_data.json
+2026-02-18 06:38:47,240 - INFO - Loaded 4 existing URLs from news_data.json
+2026-02-18 06:38:47,240 - INFO - Starting scraper with 5 days back (cutoff: 2026-02-13)
+2026-02-18 06:38:47,240 - INFO - Fetching page 1: https://www.thejakartapost.com/business/companies/latest?utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:47,569 - INFO - Found 0 valid articles on page 1
+2026-02-18 06:38:47,570 - INFO - No articles on page 1, consecutive empty: 1
+2026-02-18 06:38:47,570 - INFO - Fetching page 2: https://www.thejakartapost.com/business/companies/latest?page=2&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:47,736 - INFO - Found 0 valid articles on page 2
+2026-02-18 06:38:47,737 - INFO - No articles on page 2, consecutive empty: 2
+2026-02-18 06:38:47,738 - INFO - Fetching page 3: https://www.thejakartapost.com/business/companies/latest?page=3&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:38:47,957 - INFO - Found 0 valid articles on page 3
+2026-02-18 06:38:47,957 - INFO - No articles on page 3, consecutive empty: 3
+2026-02-18 06:38:47,957 - INFO - 3 consecutive empty pages, stopping
+2026-02-18 06:38:47,958 - INFO - Total new unique articles found: 0
+2026-02-18 06:38:47,958 - INFO - No new articles to save
+2026-02-18 06:39:13,409 - INFO - Starting scraper with 2 days back (cutoff: 2026-02-16)
+2026-02-18 06:39:13,409 - INFO - Fetching page 1: https://www.thejakartapost.com/business/companies/latest?utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:13,763 - INFO - Found 1 valid articles on page 1
+2026-02-18 06:39:13,764 - INFO - Fetching page 2: https://www.thejakartapost.com/business/companies/latest?page=2&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:13,977 - INFO - Found 1 valid articles on page 2
+2026-02-18 06:39:13,979 - INFO - Fetching page 3: https://www.thejakartapost.com/business/companies/latest?page=3&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:14,237 - INFO - Found 1 valid articles on page 3
+2026-02-18 06:39:14,238 - INFO - Fetching page 4: https://www.thejakartapost.com/business/companies/latest?page=4&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:14,489 - INFO - Found 1 valid articles on page 4
+2026-02-18 06:39:14,489 - INFO - Fetching page 5: https://www.thejakartapost.com/business/companies/latest?page=5&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:14,677 - INFO - Found 1 valid articles on page 5
+2026-02-18 06:39:14,677 - INFO - Fetching page 6: https://www.thejakartapost.com/business/companies/latest?page=6&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:14,907 - INFO - Found 1 valid articles on page 6
+2026-02-18 06:39:14,907 - INFO - Fetching page 7: https://www.thejakartapost.com/business/companies/latest?page=7&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:15,104 - INFO - Found 1 valid articles on page 7
+2026-02-18 06:39:15,104 - INFO - Fetching page 8: https://www.thejakartapost.com/business/companies/latest?page=8&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:15,401 - INFO - Found 1 valid articles on page 8
+2026-02-18 06:39:15,402 - INFO - Fetching page 9: https://www.thejakartapost.com/business/companies/latest?page=9&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:15,593 - INFO - Found 1 valid articles on page 9
+2026-02-18 06:39:15,594 - INFO - Fetching page 10: https://www.thejakartapost.com/business/companies/latest?page=10&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:15,815 - INFO - Found 1 valid articles on page 10
+2026-02-18 06:39:15,816 - INFO - Fetching page 11: https://www.thejakartapost.com/business/companies/latest?page=11&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:15,974 - INFO - Found 1 valid articles on page 11
+2026-02-18 06:39:15,975 - INFO - Fetching page 12: https://www.thejakartapost.com/business/companies/latest?page=12&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:16,164 - INFO - Found 1 valid articles on page 12
+2026-02-18 06:39:16,165 - INFO - Fetching page 13: https://www.thejakartapost.com/business/companies/latest?page=13&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:16,353 - INFO - Found 1 valid articles on page 13
+2026-02-18 06:39:16,353 - INFO - Fetching page 14: https://www.thejakartapost.com/business/companies/latest?page=14&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:16,566 - INFO - Found 1 valid articles on page 14
+2026-02-18 06:39:16,566 - INFO - Fetching page 15: https://www.thejakartapost.com/business/companies/latest?page=15&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:16,799 - INFO - Found 1 valid articles on page 15
+2026-02-18 06:39:16,800 - INFO - Fetching page 16: https://www.thejakartapost.com/business/companies/latest?page=16&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:17,070 - INFO - Found 1 valid articles on page 16
+2026-02-18 06:39:17,071 - INFO - Fetching page 17: https://www.thejakartapost.com/business/companies/latest?page=17&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:17,248 - INFO - Found 1 valid articles on page 17
+2026-02-18 06:39:17,250 - INFO - Fetching page 18: https://www.thejakartapost.com/business/companies/latest?page=18&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:17,466 - INFO - Found 1 valid articles on page 18
+2026-02-18 06:39:17,467 - INFO - Fetching page 19: https://www.thejakartapost.com/business/companies/latest?page=19&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:17,679 - INFO - Found 1 valid articles on page 19
+2026-02-18 06:39:17,679 - INFO - Fetching page 20: https://www.thejakartapost.com/business/companies/latest?page=20&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:17,851 - INFO - Found 1 valid articles on page 20
+2026-02-18 06:39:17,851 - INFO - Fetching page 21: https://www.thejakartapost.com/business/companies/latest?page=21&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:18,031 - INFO - Found 1 valid articles on page 21
+2026-02-18 06:39:18,032 - INFO - Fetching page 22: https://www.thejakartapost.com/business/companies/latest?page=22&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:18,215 - INFO - Found 1 valid articles on page 22
+2026-02-18 06:39:18,215 - INFO - Fetching page 23: https://www.thejakartapost.com/business/companies/latest?page=23&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:18,389 - INFO - Found 1 valid articles on page 23
+2026-02-18 06:39:18,390 - INFO - Fetching page 24: https://www.thejakartapost.com/business/companies/latest?page=24&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:18,607 - INFO - Found 1 valid articles on page 24
+2026-02-18 06:39:18,607 - INFO - Fetching page 25: https://www.thejakartapost.com/business/companies/latest?page=25&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:18,860 - INFO - Found 1 valid articles on page 25
+2026-02-18 06:39:18,860 - INFO - Fetching page 26: https://www.thejakartapost.com/business/companies/latest?page=26&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:19,138 - INFO - Found 1 valid articles on page 26
+2026-02-18 06:39:19,138 - INFO - Fetching page 27: https://www.thejakartapost.com/business/companies/latest?page=27&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:19,322 - INFO - Found 1 valid articles on page 27
+2026-02-18 06:39:19,323 - INFO - Fetching page 28: https://www.thejakartapost.com/business/companies/latest?page=28&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:19,517 - INFO - Found 1 valid articles on page 28
+2026-02-18 06:39:19,518 - INFO - Fetching page 29: https://www.thejakartapost.com/business/companies/latest?page=29&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:19,724 - INFO - Found 1 valid articles on page 29
+2026-02-18 06:39:19,725 - INFO - Fetching page 30: https://www.thejakartapost.com/business/companies/latest?page=30&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:19,998 - INFO - Found 1 valid articles on page 30
+2026-02-18 06:39:19,999 - INFO - Fetching page 31: https://www.thejakartapost.com/business/companies/latest?page=31&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:20,237 - INFO - Found 1 valid articles on page 31
+2026-02-18 06:39:20,237 - INFO - Fetching page 32: https://www.thejakartapost.com/business/companies/latest?page=32&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:20,413 - INFO - Found 1 valid articles on page 32
+2026-02-18 06:39:20,413 - INFO - Fetching page 33: https://www.thejakartapost.com/business/companies/latest?page=33&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:20,590 - INFO - Found 1 valid articles on page 33
+2026-02-18 06:39:20,590 - INFO - Fetching page 34: https://www.thejakartapost.com/business/companies/latest?page=34&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:20,799 - INFO - Found 1 valid articles on page 34
+2026-02-18 06:39:20,800 - INFO - Fetching page 35: https://www.thejakartapost.com/business/companies/latest?page=35&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:20,981 - INFO - Found 1 valid articles on page 35
+2026-02-18 06:39:20,982 - INFO - Fetching page 36: https://www.thejakartapost.com/business/companies/latest?page=36&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:21,196 - INFO - Found 1 valid articles on page 36
+2026-02-18 06:39:21,196 - INFO - Fetching page 37: https://www.thejakartapost.com/business/companies/latest?page=37&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:21,374 - INFO - Found 1 valid articles on page 37
+2026-02-18 06:39:21,374 - INFO - Fetching page 38: https://www.thejakartapost.com/business/companies/latest?page=38&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:21,580 - INFO - Found 1 valid articles on page 38
+2026-02-18 06:39:21,581 - INFO - Fetching page 39: https://www.thejakartapost.com/business/companies/latest?page=39&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:21,766 - INFO - Found 1 valid articles on page 39
+2026-02-18 06:39:21,766 - INFO - Fetching page 40: https://www.thejakartapost.com/business/companies/latest?page=40&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:21,952 - INFO - Found 1 valid articles on page 40
+2026-02-18 06:39:21,952 - INFO - Fetching page 41: https://www.thejakartapost.com/business/companies/latest?page=41&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:22,255 - INFO - Found 1 valid articles on page 41
+2026-02-18 06:39:22,258 - INFO - Fetching page 42: https://www.thejakartapost.com/business/companies/latest?page=42&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:22,435 - INFO - Found 1 valid articles on page 42
+2026-02-18 06:39:22,436 - INFO - Fetching page 43: https://www.thejakartapost.com/business/companies/latest?page=43&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:22,601 - INFO - Found 1 valid articles on page 43
+2026-02-18 06:39:22,601 - INFO - Fetching page 44: https://www.thejakartapost.com/business/companies/latest?page=44&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:22,783 - INFO - Found 1 valid articles on page 44
+2026-02-18 06:39:22,784 - INFO - Fetching page 45: https://www.thejakartapost.com/business/companies/latest?page=45&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:22,971 - INFO - Found 1 valid articles on page 45
+2026-02-18 06:39:22,972 - INFO - Fetching page 46: https://www.thejakartapost.com/business/companies/latest?page=46&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:23,162 - INFO - Found 1 valid articles on page 46
+2026-02-18 06:39:23,163 - INFO - Fetching page 47: https://www.thejakartapost.com/business/companies/latest?page=47&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:23,408 - INFO - Found 1 valid articles on page 47
+2026-02-18 06:39:23,408 - INFO - Fetching page 48: https://www.thejakartapost.com/business/companies/latest?page=48&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:23,624 - INFO - Found 1 valid articles on page 48
+2026-02-18 06:39:23,624 - INFO - Fetching page 49: https://www.thejakartapost.com/business/companies/latest?page=49&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:23,809 - INFO - Found 1 valid articles on page 49
+2026-02-18 06:39:23,809 - INFO - Fetching page 50: https://www.thejakartapost.com/business/companies/latest?page=50&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:39:24,015 - INFO - Found 1 valid articles on page 50
+2026-02-18 06:39:24,015 - INFO - Total new unique articles found: 1
+2026-02-18 06:39:24,016 - INFO - Saved 1 new articles to news_data.json
+2026-02-18 06:40:26,196 - INFO - Starting scraper with 2 days back (cutoff: 2026-02-16)
+2026-02-18 06:40:26,197 - INFO - Fetching page 1: https://www.thejakartapost.com/business/companies/latest?utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:40:26,527 - INFO - Found 0 valid articles on page 1
+2026-02-18 06:40:26,527 - INFO - No articles on page 1, consecutive empty: 1
+2026-02-18 06:40:26,528 - INFO - Fetching page 2: https://www.thejakartapost.com/business/companies/latest?page=2&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:40:26,698 - INFO - Found 0 valid articles on page 2
+2026-02-18 06:40:26,698 - INFO - No articles on page 2, consecutive empty: 2
+2026-02-18 06:40:26,699 - INFO - Fetching page 3: https://www.thejakartapost.com/business/companies/latest?page=3&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:40:26,950 - INFO - Found 0 valid articles on page 3
+2026-02-18 06:40:26,950 - INFO - No articles on page 3, consecutive empty: 3
+2026-02-18 06:40:26,951 - INFO - 3 consecutive empty pages, stopping
+2026-02-18 06:40:26,951 - INFO - Total new unique articles found: 0
+2026-02-18 06:40:26,952 - INFO - No new articles to save
+2026-02-18 06:41:26,130 - INFO - Starting scraper with 2 days back (cutoff: 2026-02-16)
+2026-02-18 06:41:26,131 - INFO - Fetching page 1: https://www.thejakartapost.com/business/companies/latest?utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:26,352 - INFO - Found 1 valid articles on page 1
+2026-02-18 06:41:26,353 - INFO - Fetching page 2: https://www.thejakartapost.com/business/companies/latest?page=2&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:26,532 - INFO - Found 1 valid articles on page 2
+2026-02-18 06:41:26,534 - INFO - Fetching page 3: https://www.thejakartapost.com/business/companies/latest?page=3&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:26,647 - INFO - Found 1 valid articles on page 3
+2026-02-18 06:41:26,648 - INFO - Fetching page 4: https://www.thejakartapost.com/business/companies/latest?page=4&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:26,817 - INFO - Found 1 valid articles on page 4
+2026-02-18 06:41:26,817 - INFO - Fetching page 5: https://www.thejakartapost.com/business/companies/latest?page=5&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:26,940 - INFO - Found 1 valid articles on page 5
+2026-02-18 06:41:26,940 - INFO - Fetching page 6: https://www.thejakartapost.com/business/companies/latest?page=6&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:27,053 - INFO - Found 1 valid articles on page 6
+2026-02-18 06:41:27,054 - INFO - Fetching page 7: https://www.thejakartapost.com/business/companies/latest?page=7&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:27,173 - INFO - Found 1 valid articles on page 7
+2026-02-18 06:41:27,174 - INFO - Fetching page 8: https://www.thejakartapost.com/business/companies/latest?page=8&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:27,266 - INFO - Found 1 valid articles on page 8
+2026-02-18 06:41:27,268 - INFO - Fetching page 9: https://www.thejakartapost.com/business/companies/latest?page=9&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:27,436 - INFO - Found 1 valid articles on page 9
+2026-02-18 06:41:27,439 - INFO - Fetching page 10: https://www.thejakartapost.com/business/companies/latest?page=10&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:27,557 - INFO - Found 1 valid articles on page 10
+2026-02-18 06:41:27,558 - INFO - Fetching page 11: https://www.thejakartapost.com/business/companies/latest?page=11&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:27,648 - INFO - Found 1 valid articles on page 11
+2026-02-18 06:41:27,649 - INFO - Fetching page 12: https://www.thejakartapost.com/business/companies/latest?page=12&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:27,771 - INFO - Found 1 valid articles on page 12
+2026-02-18 06:41:27,772 - INFO - Fetching page 13: https://www.thejakartapost.com/business/companies/latest?page=13&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:27,854 - INFO - Found 1 valid articles on page 13
+2026-02-18 06:41:27,854 - INFO - Fetching page 14: https://www.thejakartapost.com/business/companies/latest?page=14&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:27,961 - INFO - Found 1 valid articles on page 14
+2026-02-18 06:41:27,961 - INFO - Fetching page 15: https://www.thejakartapost.com/business/companies/latest?page=15&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:28,055 - INFO - Found 1 valid articles on page 15
+2026-02-18 06:41:28,056 - INFO - Fetching page 16: https://www.thejakartapost.com/business/companies/latest?page=16&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:28,154 - INFO - Found 1 valid articles on page 16
+2026-02-18 06:41:28,154 - INFO - Fetching page 17: https://www.thejakartapost.com/business/companies/latest?page=17&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:28,242 - INFO - Found 1 valid articles on page 17
+2026-02-18 06:41:28,243 - INFO - Fetching page 18: https://www.thejakartapost.com/business/companies/latest?page=18&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:28,345 - INFO - Found 1 valid articles on page 18
+2026-02-18 06:41:28,346 - INFO - Fetching page 19: https://www.thejakartapost.com/business/companies/latest?page=19&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:28,446 - INFO - Found 1 valid articles on page 19
+2026-02-18 06:41:28,446 - INFO - Fetching page 20: https://www.thejakartapost.com/business/companies/latest?page=20&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:28,559 - INFO - Found 1 valid articles on page 20
+2026-02-18 06:41:28,559 - INFO - Fetching page 21: https://www.thejakartapost.com/business/companies/latest?page=21&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:28,700 - INFO - Found 1 valid articles on page 21
+2026-02-18 06:41:28,700 - INFO - Fetching page 22: https://www.thejakartapost.com/business/companies/latest?page=22&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:28,783 - INFO - Found 1 valid articles on page 22
+2026-02-18 06:41:28,784 - INFO - Fetching page 23: https://www.thejakartapost.com/business/companies/latest?page=23&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:28,876 - INFO - Found 1 valid articles on page 23
+2026-02-18 06:41:28,877 - INFO - Fetching page 24: https://www.thejakartapost.com/business/companies/latest?page=24&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:28,980 - INFO - Found 1 valid articles on page 24
+2026-02-18 06:41:28,980 - INFO - Fetching page 25: https://www.thejakartapost.com/business/companies/latest?page=25&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:29,133 - INFO - Found 1 valid articles on page 25
+2026-02-18 06:41:29,134 - INFO - Fetching page 26: https://www.thejakartapost.com/business/companies/latest?page=26&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:29,231 - INFO - Found 1 valid articles on page 26
+2026-02-18 06:41:29,231 - INFO - Fetching page 27: https://www.thejakartapost.com/business/companies/latest?page=27&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:29,377 - INFO - Found 1 valid articles on page 27
+2026-02-18 06:41:29,379 - INFO - Fetching page 28: https://www.thejakartapost.com/business/companies/latest?page=28&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:29,475 - INFO - Found 1 valid articles on page 28
+2026-02-18 06:41:29,476 - INFO - Fetching page 29: https://www.thejakartapost.com/business/companies/latest?page=29&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:29,576 - INFO - Found 1 valid articles on page 29
+2026-02-18 06:41:29,577 - INFO - Fetching page 30: https://www.thejakartapost.com/business/companies/latest?page=30&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:29,890 - INFO - Found 1 valid articles on page 30
+2026-02-18 06:41:29,892 - INFO - Fetching page 31: https://www.thejakartapost.com/business/companies/latest?page=31&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:30,056 - INFO - Found 1 valid articles on page 31
+2026-02-18 06:41:30,057 - INFO - Fetching page 32: https://www.thejakartapost.com/business/companies/latest?page=32&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:30,193 - INFO - Found 1 valid articles on page 32
+2026-02-18 06:41:30,193 - INFO - Fetching page 33: https://www.thejakartapost.com/business/companies/latest?page=33&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:30,276 - INFO - Found 1 valid articles on page 33
+2026-02-18 06:41:30,277 - INFO - Fetching page 34: https://www.thejakartapost.com/business/companies/latest?page=34&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:30,381 - INFO - Found 1 valid articles on page 34
+2026-02-18 06:41:30,382 - INFO - Fetching page 35: https://www.thejakartapost.com/business/companies/latest?page=35&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:30,470 - INFO - Found 1 valid articles on page 35
+2026-02-18 06:41:30,470 - INFO - Fetching page 36: https://www.thejakartapost.com/business/companies/latest?page=36&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:30,574 - INFO - Found 1 valid articles on page 36
+2026-02-18 06:41:30,574 - INFO - Fetching page 37: https://www.thejakartapost.com/business/companies/latest?page=37&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:30,683 - INFO - Found 1 valid articles on page 37
+2026-02-18 06:41:30,684 - INFO - Fetching page 38: https://www.thejakartapost.com/business/companies/latest?page=38&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:30,829 - INFO - Found 1 valid articles on page 38
+2026-02-18 06:41:30,830 - INFO - Fetching page 39: https://www.thejakartapost.com/business/companies/latest?page=39&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:30,926 - INFO - Found 1 valid articles on page 39
+2026-02-18 06:41:30,929 - INFO - Fetching page 40: https://www.thejakartapost.com/business/companies/latest?page=40&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:31,032 - INFO - Found 1 valid articles on page 40
+2026-02-18 06:41:31,034 - INFO - Fetching page 41: https://www.thejakartapost.com/business/companies/latest?page=41&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:31,120 - INFO - Found 1 valid articles on page 41
+2026-02-18 06:41:31,120 - INFO - Fetching page 42: https://www.thejakartapost.com/business/companies/latest?page=42&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:31,211 - INFO - Found 1 valid articles on page 42
+2026-02-18 06:41:31,211 - INFO - Fetching page 43: https://www.thejakartapost.com/business/companies/latest?page=43&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:31,314 - INFO - Found 1 valid articles on page 43
+2026-02-18 06:41:31,314 - INFO - Fetching page 44: https://www.thejakartapost.com/business/companies/latest?page=44&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:31,412 - INFO - Found 1 valid articles on page 44
+2026-02-18 06:41:31,412 - INFO - Fetching page 45: https://www.thejakartapost.com/business/companies/latest?page=45&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:31,539 - INFO - Found 1 valid articles on page 45
+2026-02-18 06:41:31,542 - INFO - Fetching page 46: https://www.thejakartapost.com/business/companies/latest?page=46&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:31,634 - INFO - Found 1 valid articles on page 46
+2026-02-18 06:41:31,634 - INFO - Fetching page 47: https://www.thejakartapost.com/business/companies/latest?page=47&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:31,793 - INFO - Found 1 valid articles on page 47
+2026-02-18 06:41:31,793 - INFO - Fetching page 48: https://www.thejakartapost.com/business/companies/latest?page=48&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:31,928 - INFO - Found 1 valid articles on page 48
+2026-02-18 06:41:31,929 - INFO - Fetching page 49: https://www.thejakartapost.com/business/companies/latest?page=49&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:32,024 - INFO - Found 1 valid articles on page 49
+2026-02-18 06:41:32,025 - INFO - Fetching page 50: https://www.thejakartapost.com/business/companies/latest?page=50&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:32,243 - INFO - Found 1 valid articles on page 50
+2026-02-18 06:41:32,244 - INFO - Total new unique articles found: 1
+2026-02-18 06:41:32,244 - INFO - Saved 1 new articles to news_data.json
+2026-02-18 06:41:53,610 - INFO - Starting scraper with 5 days back (cutoff: 2026-02-13)
+2026-02-18 06:41:53,610 - INFO - Fetching page 1: https://www.thejakartapost.com/business/companies/latest?utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:53,763 - INFO - Found 2 valid articles on page 1
+2026-02-18 06:41:53,765 - INFO - Fetching page 2: https://www.thejakartapost.com/business/companies/latest?page=2&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:53,876 - INFO - Found 2 valid articles on page 2
+2026-02-18 06:41:53,877 - INFO - Fetching page 3: https://www.thejakartapost.com/business/companies/latest?page=3&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:54,011 - INFO - Found 2 valid articles on page 3
+2026-02-18 06:41:54,011 - INFO - Fetching page 4: https://www.thejakartapost.com/business/companies/latest?page=4&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:54,224 - INFO - Found 2 valid articles on page 4
+2026-02-18 06:41:54,225 - INFO - Fetching page 5: https://www.thejakartapost.com/business/companies/latest?page=5&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:54,367 - INFO - Found 2 valid articles on page 5
+2026-02-18 06:41:54,367 - INFO - Fetching page 6: https://www.thejakartapost.com/business/companies/latest?page=6&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:54,502 - INFO - Found 2 valid articles on page 6
+2026-02-18 06:41:54,502 - INFO - Fetching page 7: https://www.thejakartapost.com/business/companies/latest?page=7&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:54,598 - INFO - Found 2 valid articles on page 7
+2026-02-18 06:41:54,599 - INFO - Fetching page 8: https://www.thejakartapost.com/business/companies/latest?page=8&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:54,773 - INFO - Found 2 valid articles on page 8
+2026-02-18 06:41:54,773 - INFO - Fetching page 9: https://www.thejakartapost.com/business/companies/latest?page=9&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:54,881 - INFO - Found 2 valid articles on page 9
+2026-02-18 06:41:54,882 - INFO - Fetching page 10: https://www.thejakartapost.com/business/companies/latest?page=10&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:54,978 - INFO - Found 2 valid articles on page 10
+2026-02-18 06:41:54,978 - INFO - Fetching page 11: https://www.thejakartapost.com/business/companies/latest?page=11&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:55,077 - INFO - Found 2 valid articles on page 11
+2026-02-18 06:41:55,077 - INFO - Fetching page 12: https://www.thejakartapost.com/business/companies/latest?page=12&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:55,248 - INFO - Found 2 valid articles on page 12
+2026-02-18 06:41:55,248 - INFO - Fetching page 13: https://www.thejakartapost.com/business/companies/latest?page=13&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:55,340 - INFO - Found 2 valid articles on page 13
+2026-02-18 06:41:55,340 - INFO - Fetching page 14: https://www.thejakartapost.com/business/companies/latest?page=14&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:55,433 - INFO - Found 2 valid articles on page 14
+2026-02-18 06:41:55,434 - INFO - Fetching page 15: https://www.thejakartapost.com/business/companies/latest?page=15&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:55,528 - INFO - Found 2 valid articles on page 15
+2026-02-18 06:41:55,528 - INFO - Fetching page 16: https://www.thejakartapost.com/business/companies/latest?page=16&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:55,687 - INFO - Found 2 valid articles on page 16
+2026-02-18 06:41:55,688 - INFO - Fetching page 17: https://www.thejakartapost.com/business/companies/latest?page=17&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:55,805 - INFO - Found 2 valid articles on page 17
+2026-02-18 06:41:55,806 - INFO - Fetching page 18: https://www.thejakartapost.com/business/companies/latest?page=18&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:55,901 - INFO - Found 2 valid articles on page 18
+2026-02-18 06:41:55,901 - INFO - Fetching page 19: https://www.thejakartapost.com/business/companies/latest?page=19&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:55,997 - INFO - Found 2 valid articles on page 19
+2026-02-18 06:41:55,998 - INFO - Fetching page 20: https://www.thejakartapost.com/business/companies/latest?page=20&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:56,103 - INFO - Found 2 valid articles on page 20
+2026-02-18 06:41:56,103 - INFO - Fetching page 21: https://www.thejakartapost.com/business/companies/latest?page=21&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:56,250 - INFO - Found 2 valid articles on page 21
+2026-02-18 06:41:56,251 - INFO - Fetching page 22: https://www.thejakartapost.com/business/companies/latest?page=22&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:56,340 - INFO - Found 2 valid articles on page 22
+2026-02-18 06:41:56,341 - INFO - Fetching page 23: https://www.thejakartapost.com/business/companies/latest?page=23&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:56,428 - INFO - Found 2 valid articles on page 23
+2026-02-18 06:41:56,429 - INFO - Fetching page 24: https://www.thejakartapost.com/business/companies/latest?page=24&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:56,522 - INFO - Found 2 valid articles on page 24
+2026-02-18 06:41:56,523 - INFO - Fetching page 25: https://www.thejakartapost.com/business/companies/latest?page=25&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:56,615 - INFO - Found 2 valid articles on page 25
+2026-02-18 06:41:56,615 - INFO - Fetching page 26: https://www.thejakartapost.com/business/companies/latest?page=26&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:56,712 - INFO - Found 2 valid articles on page 26
+2026-02-18 06:41:56,714 - INFO - Fetching page 27: https://www.thejakartapost.com/business/companies/latest?page=27&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:56,812 - INFO - Found 2 valid articles on page 27
+2026-02-18 06:41:56,812 - INFO - Fetching page 28: https://www.thejakartapost.com/business/companies/latest?page=28&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:56,904 - INFO - Found 2 valid articles on page 28
+2026-02-18 06:41:56,905 - INFO - Fetching page 29: https://www.thejakartapost.com/business/companies/latest?page=29&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:56,996 - INFO - Found 2 valid articles on page 29
+2026-02-18 06:41:56,996 - INFO - Fetching page 30: https://www.thejakartapost.com/business/companies/latest?page=30&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:57,127 - INFO - Found 2 valid articles on page 30
+2026-02-18 06:41:57,128 - INFO - Fetching page 31: https://www.thejakartapost.com/business/companies/latest?page=31&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:57,230 - INFO - Found 2 valid articles on page 31
+2026-02-18 06:41:57,232 - INFO - Fetching page 32: https://www.thejakartapost.com/business/companies/latest?page=32&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:57,326 - INFO - Found 2 valid articles on page 32
+2026-02-18 06:41:57,326 - INFO - Fetching page 33: https://www.thejakartapost.com/business/companies/latest?page=33&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:57,433 - INFO - Found 2 valid articles on page 33
+2026-02-18 06:41:57,435 - INFO - Fetching page 34: https://www.thejakartapost.com/business/companies/latest?page=34&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:57,556 - INFO - Found 2 valid articles on page 34
+2026-02-18 06:41:57,557 - INFO - Fetching page 35: https://www.thejakartapost.com/business/companies/latest?page=35&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:57,655 - INFO - Found 2 valid articles on page 35
+2026-02-18 06:41:57,656 - INFO - Fetching page 36: https://www.thejakartapost.com/business/companies/latest?page=36&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:57,754 - INFO - Found 2 valid articles on page 36
+2026-02-18 06:41:57,754 - INFO - Fetching page 37: https://www.thejakartapost.com/business/companies/latest?page=37&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:57,845 - INFO - Found 2 valid articles on page 37
+2026-02-18 06:41:57,846 - INFO - Fetching page 38: https://www.thejakartapost.com/business/companies/latest?page=38&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:58,075 - INFO - Found 2 valid articles on page 38
+2026-02-18 06:41:58,076 - INFO - Fetching page 39: https://www.thejakartapost.com/business/companies/latest?page=39&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:58,182 - INFO - Found 2 valid articles on page 39
+2026-02-18 06:41:58,183 - INFO - Fetching page 40: https://www.thejakartapost.com/business/companies/latest?page=40&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:58,278 - INFO - Found 2 valid articles on page 40
+2026-02-18 06:41:58,279 - INFO - Fetching page 41: https://www.thejakartapost.com/business/companies/latest?page=41&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:58,365 - INFO - Found 2 valid articles on page 41
+2026-02-18 06:41:58,365 - INFO - Fetching page 42: https://www.thejakartapost.com/business/companies/latest?page=42&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:58,469 - INFO - Found 2 valid articles on page 42
+2026-02-18 06:41:58,470 - INFO - Fetching page 43: https://www.thejakartapost.com/business/companies/latest?page=43&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:58,568 - INFO - Found 2 valid articles on page 43
+2026-02-18 06:41:58,569 - INFO - Fetching page 44: https://www.thejakartapost.com/business/companies/latest?page=44&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:58,668 - INFO - Found 2 valid articles on page 44
+2026-02-18 06:41:58,675 - INFO - Fetching page 45: https://www.thejakartapost.com/business/companies/latest?page=45&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:58,771 - INFO - Found 2 valid articles on page 45
+2026-02-18 06:41:58,771 - INFO - Fetching page 46: https://www.thejakartapost.com/business/companies/latest?page=46&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:58,860 - INFO - Found 2 valid articles on page 46
+2026-02-18 06:41:58,861 - INFO - Fetching page 47: https://www.thejakartapost.com/business/companies/latest?page=47&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:58,996 - INFO - Found 2 valid articles on page 47
+2026-02-18 06:41:58,997 - INFO - Fetching page 48: https://www.thejakartapost.com/business/companies/latest?page=48&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:59,154 - INFO - Found 2 valid articles on page 48
+2026-02-18 06:41:59,154 - INFO - Fetching page 49: https://www.thejakartapost.com/business/companies/latest?page=49&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:59,253 - INFO - Found 2 valid articles on page 49
+2026-02-18 06:41:59,254 - INFO - Fetching page 50: https://www.thejakartapost.com/business/companies/latest?page=50&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:41:59,359 - INFO - Found 2 valid articles on page 50
+2026-02-18 06:41:59,360 - INFO - Total new unique articles found: 2
+2026-02-18 06:41:59,361 - INFO - Saved 2 new articles to news_data.json
+2026-02-18 06:42:11,311 - INFO - Loaded 2 existing URLs from news_data.json
+2026-02-18 06:42:11,311 - INFO - Starting scraper with 5 days back (cutoff: 2026-02-13)
+2026-02-18 06:42:11,312 - INFO - Fetching page 1: https://www.thejakartapost.com/business/companies/latest?utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:42:11,472 - INFO - Found 0 valid articles on page 1
+2026-02-18 06:42:11,474 - INFO - No articles on page 1, consecutive empty: 1
+2026-02-18 06:42:11,474 - INFO - Fetching page 2: https://www.thejakartapost.com/business/companies/latest?page=2&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:42:11,610 - INFO - Found 0 valid articles on page 2
+2026-02-18 06:42:11,611 - INFO - No articles on page 2, consecutive empty: 2
+2026-02-18 06:42:11,611 - INFO - Fetching page 3: https://www.thejakartapost.com/business/companies/latest?page=3&utm_source=(direct)&utm_medium=channel_companies
+2026-02-18 06:42:11,767 - INFO - Found 0 valid articles on page 3
+2026-02-18 06:42:11,767 - INFO - No articles on page 3, consecutive empty: 3
+2026-02-18 06:42:11,767 - INFO - 3 consecutive empty pages, stopping
+2026-02-18 06:42:11,767 - INFO - Total new unique articles found: 0
+2026-02-18 06:42:11,767 - INFO - No new articles to save
