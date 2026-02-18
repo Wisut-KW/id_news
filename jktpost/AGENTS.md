@@ -18,6 +18,9 @@ Build a **Python-script for news scraping** that:
 
 # 2. Source Categories
 
-Base domain:
+URL donmain:
+https://www.thejakartapost.com/business/ 
 
-[https://www.thejakartapost.com/business/companies/latest?utm_source=(direct)&utm_medium=channel_companies](https://www.thejakartapost.com/business/companies/latest?utm_source=%28direct%29&utm_medium=channel_companies)
+With index page that can change the last number to select page as followed:
+https://www.thejakartapost.com/business/latest?page=1
+https://www.thejakartapost.com/business/latest?page=2
