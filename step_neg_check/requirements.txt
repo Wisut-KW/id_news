@@ -1,0 +1,2 @@
+# Negative High-Impact Event Detection
+# No external dependencies required - uses Python standard library only
