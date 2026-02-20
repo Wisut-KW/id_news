@@ -15,169 +15,239 @@ The agent must respond strictly with:
 * **"yes"** — if the event qualifies
 * **"no"** — if the event does not qualify
 
-No additional commentary, explanation, or reasoning should be provided.
+No additional commentary or explanation is allowed.
 
 ---
 
-## Evaluation Scope
+## Core Evaluation Principles
 
-The agent must evaluate only:
+The agent must consider:
 
-* **Officially confirmed final outcomes**
-* Events that have already occurred and are verified
+* Only **officially confirmed final outcomes**
+* Events that have **already occurred**
+* Direct, material impact
 
 The agent must NOT consider:
 
 * Statements
-* Political discussions
+* Discussions
 * Proposals
-* Potential changes
-* Forecasts or expectations
-* Future risks
+* Draft policies
 * Speculation
-* Follow-on or secondary effects
+* Forecasts or expectations
+* Potential impacts
+* Future risks
+* Follow-on effects
 * Hypothetical scenarios
+
+If the outcome is not finalized and confirmed → respond **"no"**.
 
 ---
 
-## Qualification Criteria
+# Qualification Criteria
 
-A news event qualifies if it represents a **negative high-impact development** affecting at least one of the listed countries and falls into **one or more** of the categories below:
+An event qualifies if it represents a **negative high-impact development** and falls into **any one or more** of the categories below.
 
-### 1. Production / Logistics / Labor Disruption
+---
+
+## 1) Production, Logistics, or Labor Disruption
 
 Confirmed disruption to:
 
 * Manufacturing
 * Supply chains
-* Ports or transportation networks
+* Ports, shipping lanes, airports
+* Energy supply
 * Workforce availability
+* Large-scale strikes
 
 ---
 
-### 2. Financial Distress of Major Entities
+## 2) Corporate Financial Distress
 
 Confirmed:
 
 * Default
 * Bankruptcy
-* Credit rating downgrade
 * Liquidity crisis
-  Affecting major companies, financial institutions, or critical sectors.
+* Credit rating downgrade
+* Debt restructuring
+
+Affecting major companies or systemically important sectors.
 
 ---
 
-### 3. Trade Policy Changes
+## 3) Sovereign Financial Stress
+
+Confirmed:
+
+* Sovereign credit rating downgrade
+* Sovereign default or restructuring
+* IMF or emergency bailout program
+* Capital controls
+* Banking system instability
+* Bank runs
+* Interbank liquidity freeze
+
+---
+
+## 4) Trade Restrictions or Economic Sanctions
 
 Confirmed implementation of:
 
 * Tariffs
-* Trade restrictions
 * Export/import bans
+* Trade barriers
 * Sanctions
-  That materially affect cost structures or market access.
+* Market access restrictions
 
 ---
 
-### 4. Capital or Business Withdrawal
+## 5) Regulatory or Political Shock
+
+Confirmed actions such as:
+
+* Nationalization
+* Forced asset seizures
+* Sudden industry-wide bans
+* Major regulatory crackdowns
+* Removal of key political leadership causing instability
+* Dissolution of major state institutions
+
+---
+
+## 6) Capital Withdrawal or Business Exit
 
 Confirmed:
 
-* Business closures
-* Capital flight
-* Economic sanctions
+* Large-scale business closures
 * Forced market exits
+* Capital flight
+* Withdrawal of foreign investment
+* Relocation of major operations
 
 ---
 
-### 5. Sustained Demand Contraction
+## 7) Sustained Demand Contraction
 
-Confirmed, significant, and sustained declines in:
+Confirmed significant and sustained decline in:
 
 * Consumer demand
 * Industrial demand
 * Business-to-business transactions
+* Exports
 
 ---
 
-### 6. Severe Disaster or Disease Outbreak
+## 8) Severe Natural Disaster or Disease Outbreak
 
-Confirmed severe:
+Confirmed:
 
-* Natural disasters
-* Epidemics / pandemics
-  Affecting major economic or industrial hubs.
+* Earthquakes
+* Floods
+* Typhoons
+* Major fires
+* Epidemics or pandemics
+
+That materially affect key economic regions or infrastructure.
 
 ---
 
-### 7. Negative Corporate Forward Actions
+## 9) Critical Infrastructure Failure
+
+Confirmed major failure or shutdown of:
+
+* National power grid
+* Major ports
+* Telecommunications networks
+* Financial payment systems
+* Transportation systems
+* Cyberattacks on critical infrastructure
+
+---
+
+## 10) Corporate Negative Outlook or Investment Cuts
 
 Confirmed:
 
 * Major firms issuing negative outlooks
-* Capital expenditure cuts
-* Major project cancellations
+* Capital expenditure reductions
+* Large project cancellations
+* Hiring freezes at scale
 
 ---
 
-### 8. Withdrawal of Government Support
+## 11) Fiscal Tightening or Removal of Support
 
 Confirmed:
 
-* Removal of stimulus
-* Introduction of new taxes
+* Removal of stimulus programs
 * Expiration of subsidies
-  With material economic impact.
+* Introduction of significant new taxes
+* Austerity measures
 
 ---
 
-### 9. Short-Term Market Volatility Spike
+## 12) Market Instability
 
-Confirmed short-term spike exceeding **2%** in:
+Confirmed short-term volatility spike exceeding 2% in:
 
 * Equity markets
 * Key commodities
 * Exchange rates
-  Directly tied to a negative event.
+
+Directly tied to a negative domestic event.
 
 ---
 
-### 10. First Occurrence or Sharp Escalation
+## 13) Geopolitical or Security Escalation
 
 Confirmed:
 
-* First-time major disruption
+* Military conflict
+* Armed border clashes
+* Maritime blockades
+* Major civil unrest
+* State of emergency declarations
+
+With material economic impact.
+
+---
+
+## 14) First Occurrence or Sharp Structural Escalation
+
+Confirmed:
+
+* First-time major disruption of its kind
   OR
 * Sharp escalation beyond historical norms
 
 ---
 
-## Geographic Filter Requirement
+# Geographic Requirement
 
-The event must directly impact at least one of:
+The event must:
 
-* Indonesia
-* China
-* Vietnam
-* Cambodia
-* Laos
+* Occur within Indonesia, China, Vietnam, Cambodia, or Laos
+  OR
+* Directly and materially impact one of these countries
 
-If no direct impact is confirmed → respond **"no"**.
+If no direct material impact exists → respond **"no"**.
 
 ---
 
-## Decision Rules
+# Decision Rules
 
-* If **any one** of the 10 criteria is met → respond: **yes**
-* If **none** are met → respond: **no**
-* If information is incomplete, speculative, or unconfirmed → respond: **no**
-* If impact is minor or not high-impact → respond: **no**
+* If **any one** of the above criteria is met → respond: **yes**
+* If none are met → respond: **no**
+* If the event is minor or localized without broad impact → respond: **no**
+* If information is incomplete or speculative → respond: **no**
 
 ---
 
-## Output Format (Strict)
+# Output Format (Strict)
 
-Output must contain exactly one word:
+The output must contain exactly one word:
 
 ```
 yes
@@ -188,3 +258,9 @@ or
 ```
 no
 ```
+
+No punctuation.
+No explanation.
+No additional text.
+
+---
