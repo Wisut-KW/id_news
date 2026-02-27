@@ -23,9 +23,10 @@ import time
 from datetime import datetime, timedelta
 from typing import Optional
 
-import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 from deep_translator import GoogleTranslator
+from playwright.sync_api import sync_playwright
 
 
 # Configuration
@@ -107,19 +108,15 @@ class JakartaGlobeScraper:
         return f"https://jakartaglobe.id/search/business/{page}"
     
     def fetch_page(self, url: str) -> Optional[str]:
-        """Fetch HTML content from URL."""
+        """Fetch HTML content from URL using Playwright."""
         try:
-            headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-                'Accept-Language': 'en-US,en;q=0.5',
-                'Accept-Encoding': 'gzip, deflate',
-                'Connection': 'keep-alive',
-                'Upgrade-Insecure-Requests': '1'
-            }
-            response = requests.get(url, headers=headers, timeout=30)
-            response.raise_for_status()
-            return response.text
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                page = browser.new_page()
+                page.goto(url, wait_until='networkidle', timeout=30000)
+                html = page.content()
+                browser.close()
+                return html
         except Exception as e:
             logger.error(f"Error fetching {url}: {e}")
             return None

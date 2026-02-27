@@ -1,0 +1,72 @@
+2026-02-27 04:25:37,848 - INFO - Initialized scraper with 2 days back
+2026-02-27 04:25:37,848 - INFO - Base URL: https://jakartaglobe.id/search/business/1
+2026-02-27 04:25:37,848 - INFO - Cutoff date: 2026-02-25 04:25:37.844916
+2026-02-27 04:25:37,848 - INFO - Starting Jakarta Globe scraper...
+2026-02-27 04:25:37,848 - INFO - Scraping page 1: https://jakartaglobe.id/search/business/1
+2026-02-27 04:25:37,985 - ERROR - Error fetching https://jakartaglobe.id/search/business/1: 403 Client Error: Forbidden for url: https://jakartaglobe.id/search/business/1
+2026-02-27 04:25:37,987 - WARNING - Failed to fetch page 1, stopping
+2026-02-27 04:25:37,988 - INFO - Found 0 new articles from 0 pages
+2026-02-27 04:25:37,988 - INFO - Scraping completed!
+2026-02-27 04:25:59,085 - INFO - Initialized scraper with 2 days back
+2026-02-27 04:25:59,085 - INFO - Base URL: https://jakartaglobe.id/search/business/1
+2026-02-27 04:25:59,085 - INFO - Cutoff date: 2026-02-25 04:25:59.085226
+2026-02-27 04:25:59,085 - INFO - Starting Jakarta Globe scraper...
+2026-02-27 04:25:59,085 - INFO - Scraping page 1: https://jakartaglobe.id/search/business/1
+2026-02-27 04:25:59,164 - ERROR - Error fetching https://jakartaglobe.id/search/business/1: 403 Client Error: Forbidden for url: https://jakartaglobe.id/search/business/1
+2026-02-27 04:25:59,165 - WARNING - Failed to fetch page 1, stopping
+2026-02-27 04:25:59,166 - INFO - Found 0 new articles from 0 pages
+2026-02-27 04:25:59,166 - INFO - Scraping completed!
+2026-02-27 04:26:20,197 - INFO - Initialized scraper with 2 days back
+2026-02-27 04:26:20,202 - INFO - Base URL: https://jakartaglobe.id/search/business/1
+2026-02-27 04:26:20,202 - INFO - Cutoff date: 2026-02-25 04:26:20.197613
+2026-02-27 04:26:20,202 - INFO - Starting Jakarta Globe scraper...
+2026-02-27 04:26:20,202 - INFO - Scraping page 1: https://jakartaglobe.id/search/business/1
+2026-02-27 04:26:20,305 - ERROR - Error fetching https://jakartaglobe.id/search/business/1: 403 Client Error: Forbidden for url: https://jakartaglobe.id/search/business/1
+2026-02-27 04:26:20,308 - WARNING - Failed to fetch page 1, stopping
+2026-02-27 04:26:20,308 - INFO - Found 0 new articles from 0 pages
+2026-02-27 04:26:20,308 - INFO - Scraping completed!
+2026-02-27 04:26:46,976 - INFO - Initialized scraper with 2 days back
+2026-02-27 04:26:46,977 - INFO - Base URL: https://jakartaglobe.id/search/business/1
+2026-02-27 04:26:46,977 - INFO - Cutoff date: 2026-02-25 04:26:46.976816
+2026-02-27 04:26:46,977 - INFO - Starting Jakarta Globe scraper...
+2026-02-27 04:26:46,977 - INFO - Scraping page 1: https://jakartaglobe.id/search/business/1
+2026-02-27 04:26:47,112 - ERROR - Error fetching https://jakartaglobe.id/search/business/1: 403 Client Error: Forbidden for url: https://jakartaglobe.id/search/business/1
+2026-02-27 04:26:47,112 - WARNING - Failed to fetch page 1, stopping
+2026-02-27 04:26:47,113 - INFO - Found 0 new articles from 0 pages
+2026-02-27 04:26:47,113 - INFO - Scraping completed!
+2026-02-27 04:26:54,760 - INFO - Initialized scraper with 2 days back
+2026-02-27 04:26:54,760 - INFO - Base URL: https://jakartaglobe.id/search/business/1
+2026-02-27 04:26:54,761 - INFO - Cutoff date: 2026-02-25 04:26:54.760400
+2026-02-27 04:26:54,761 - INFO - Starting Jakarta Globe scraper...
+2026-02-27 04:26:54,761 - INFO - Scraping page 1: https://jakartaglobe.id/search/business/1
+2026-02-27 04:26:54,855 - ERROR - Error fetching https://jakartaglobe.id/search/business/1: 403 Client Error: Forbidden for url: https://jakartaglobe.id/search/business/1
+2026-02-27 04:26:54,856 - WARNING - Failed to fetch page 1, stopping
+2026-02-27 04:26:54,856 - INFO - Found 0 new articles from 0 pages
+2026-02-27 04:26:54,856 - INFO - Scraping completed!
+2026-02-27 04:28:06,506 - INFO - Initialized scraper with 2 days back
+2026-02-27 04:28:06,506 - INFO - Base URL: https://jakartaglobe.id/search/business/1
+2026-02-27 04:28:06,506 - INFO - Cutoff date: 2026-02-25 04:28:06.506255
+2026-02-27 04:28:06,506 - INFO - Starting Jakarta Globe scraper...
+2026-02-27 04:28:06,506 - INFO - Scraping page 1: https://jakartaglobe.id/search/business/1
+2026-02-27 04:28:07,641 - ERROR - Error fetching https://jakartaglobe.id/search/business/1: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /home/codespace/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-MaP1jL --remote-debugging-pipe --no-startup-window
+<launched> pid=27290
+[pid=27290][err] /home/codespace/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /home/codespace/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-MaP1jL --remote-debugging-pipe --no-startup-window
+  - <launched> pid=27290
+  - [pid=27290][err] /home/codespace/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory
+  - [pid=27290] <gracefully close start>
+  - [pid=27290] <kill>
+  - [pid=27290] <will force kill>
+  - [pid=27290] exception while trying to kill process: Error: kill ESRCH
+  - [pid=27290] <process did exit: exitCode=127, signal=null>
+  - [pid=27290] starting temporary directories cleanup
+  - [pid=27290] finished temporary directories cleanup
+  - [pid=27290] <gracefully close end>
+
+2026-02-27 04:28:07,642 - WARNING - Failed to fetch page 1, stopping
+2026-02-27 04:28:07,642 - INFO - Found 0 new articles from 0 pages
+2026-02-27 04:28:07,642 - INFO - Scraping completed!
